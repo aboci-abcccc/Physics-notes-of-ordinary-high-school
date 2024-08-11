@@ -1,0 +1,6 @@
+\contentsline {section}{\numberline {1}极限}{1}{}%
+\contentsline {section}{\numberline {2}切线与导数}{1}{}%
+\contentsline {subsection}{\numberline {2.1}导数与导函数}{1}{}%
+\contentsline {subsection}{\numberline {2.2}切线}{3}{}%
+\contentsline {subsection}{\numberline {2.3}根据导函数求切线方程}{3}{}%
+\contentsline {section}{\numberline {3}半代入法求切线方程}{4}{}%

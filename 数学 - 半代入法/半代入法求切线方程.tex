@@ -1,0 +1,211 @@
+\documentclass[12pt,a4paper]{ctexart}
+
+\title{半代入法求切线方程}
+\author{啊波呲}
+
+\setlength{\parskip}{0em}
+\usepackage{xeCJK,amsmath,mathtools,amssymb,geometry,wrapfig,graphicx,empheq,pifont,enumitem}
+\renewcommand{\baselinestretch}{1.73}
+\renewcommand{\baselinestretch}{1.77}
+\geometry{left=1.5cm,right=1.5cm,bottom=2.1cm,top=2.5cm}
+\setenumerate[1]{itemsep=1pt,partopsep=0pt,parsep=\parskip,topsep=3pt}
+\setitemize[1]{itemsep=1pt,partopsep=0pt,parsep=\parskip,topsep=3pt}
+
+\usepackage{tikz}
+\usepackage{xcolor}
+\newcounter{exam}
+\setcounter{exam}{0}
+\renewcommand{\thefootnote}{*}
+\newcommand{\bre}{\ \ \ }
+\newcommand{\examlabel}{\textbf{例\theexam}}
+\newcommand{\soln}{\textbf{解}\bre}
+\newcommand{\notes}{\textbf{注意}\bre}
+\newcommand{\unit}[1]{\ \mathrm{#1}}
+
+\newenvironment{example}{\bigskip\par\refstepcounter{exam}\examlabel\bre}{\par}
+\newenvironment{solution}{\par\soln}{\par\bigskip}
+\newenvironment{definition*}{\bigskip\par\textbf{定义}\bre}{\par\bigskip}
+\newenvironment{definition}[1]{\bigskip\par\textbf{定义}\textbf{(#1)}\bre}{\par\bigskip}
+\newenvironment{theorem*}{\bigskip\par\textbf{定理}\bre}{\par\bigskip}
+\newenvironment{theorem}[1]{\bigskip\par\textbf{定理}\textbf{(#1)}\bre}{\par\bigskip}
+
+
+\begin{document}
+\maketitle
+\pagenumbering{roman}
+\tableofcontents
+\newpage
+\pagenumbering{arabic}
+
+
+\setlength{\abovedisplayskip}{3pt}
+\setlength{\belowdisplayskip}{3pt}
+
+% \begin{wrapfigure}{r}{5cm}
+%     \flushright
+%     \includegraphics[width=0.3\textwidth]{}
+%     \label{fig5}
+% \end{wrapfigure}
+
+% \begin{equation*}
+%     \begin{cases*}
+%         a = r\cos \theta, \\
+%         b = r\sin \theta.
+%     \end{cases*}
+% \end{equation*}
+
+\setlength{\abovedisplayskip}{0pt}
+\setlength{\belowdisplayskip}{0pt}
+
+\section{极限}
+
+在自变量逐渐趋于某个值某个变化过程中, 若对应的函数值无限接近于一个确定的常数,
+那么, 这个确定的常数就叫做这一变化的过程中函数的极限.
+
+\begin{definition*}
+    设函数 $f(x)$ 在点 $x_0$ 附近有定义(但不一定在点$x_0$处有定义), 如果存在常数 $l$,
+    对于任意给定的 $\epsilon > 0$, 存在$\delta > 0$, 使得对于满足
+    $0 < |x-x_0| < \delta$ 的一切 $x$, 恒有 $|f(x)-l|<\epsilon$ ,
+    则称当$x$趋于$x_0$时, $f(x)$收敛于极限$l$.
+    常数 $l$ 叫做函数 $f(x)$ 当 $x$ 趋于 $x_0$ 时的\textbf{极限}, 记作
+    $$\lim_{x\rightarrow x_0}f(x) = l.$$
+\end{definition*}
+
+\begin{definition*}
+    设$f(x)$在区间$(a,b)$上有定义, 对于任意给定的$\epsilon > 0$, 存在$\delta > 0$, 使得对于满足
+    $b-\delta < x < b$的一切$x$, 恒有$|f(x)-A|<\epsilon$, 则称当$x$从左边趋于$b$时, $f(x)$收敛于
+    极限$A$. 常数$A$称为$f(x)$在$x$趋于$x_0$处的左极限, 记作
+    $$\lim_{x\rightarrow x_0^{-}}f(x) = A.$$
+
+\end{definition*}
+
+\begin{definition*}
+    设$f(x)$在区间$(a,b)$上有定义, 对于任意给定的$\epsilon > 0$, 存在$\delta > 0$, 使得对于满足
+    $a < x < a+\delta$的一切$x$, 恒有$|f(x)-B|<\epsilon$, 则称当$x$从右边趋于$b$时, $f(x)$收敛于
+    极限$B$. 常数$B$称为$f(x)$在$x$趋于$x_0$处的右极限, 记作
+    $$\lim_{x\rightarrow x_0^{+}}f(x) = B.$$
+\end{definition*}
+
+\begin{theorem}{极限存在的充要条件}
+    当且仅当$\displaystyle\lim_{x\rightarrow x_0^{-}}f(x)$和$\displaystyle\lim_{x\rightarrow x_0^{+}}f(x)$均存在, 并且\vspace{1ex}
+    $$\lim_{x\rightarrow x_0^{-}}f(x) = \lim_{x\rightarrow x_0^{+}}f(x)$$时,
+    $\displaystyle\lim_{x\rightarrow x_0}f(x)$存在.
+\end{theorem}
+
+\section{切线与导数}
+
+\subsection{导数与导函数}
+
+导数是函数的瞬时变化率, 几何上表示函数在某一点处切线的斜率. 下面是导数的定义.
+
+\setlength{\abovedisplayskip}{8pt}
+\setlength{\belowdisplayskip}{8pt}
+\begin{definition*}
+    设函数 $y = f(x)$ 的自变量$x$在点$x_0$附近的某个区间内有定义, \vspace{1ex}当自变量$x$在$x_0$处产生一个增量$\Delta x$,\vspace{1ex}
+    并且$(x+\Delta x)$也在该区间内时, 函数值相应地取得增量$\Delta y = \displaystyle\frac{f(x_0 + \Delta x)-f{x_0}}{\Delta x}$.
+    若$\Delta y$与$\Delta x$之比
+    在$\Delta x$趋于0时有极限, 则称 $y = f(x)$ 在 $x = x_0$ 处\textbf{可导}, 并称这个极限为 $y = f(x)$ 在 $x = x_0$ 处的\textbf{导数},
+    记作$f^{\prime}(x_0)$, 即
+    $$f^{\prime}(x_0) = \lim_{\Delta x\rightarrow 0} \frac{\Delta y}{\Delta x} = \lim_{\Delta x\rightarrow 0} \frac{f(x_0 + \Delta x)-f(x_0)}{\Delta x}.$$
+
+    $\displaystyle\frac{\Delta y}{\Delta x}$在$\Delta x\rightarrow 0$时的左极限$$\lim_{\Delta x\rightarrow 0^-} \frac{\Delta y}{\Delta x}$$
+    称为$y = f(x)$ 在 $x = x_0$ 处的\textbf{左导数}, 记作$f^{\prime}_{-}(x_0)$;\vspace{1ex}
+
+    $\displaystyle\frac{\Delta y}{\Delta x}$在$\Delta x\rightarrow 0$时的右极限$$\lim_{\Delta x\rightarrow 0^+} \frac{\Delta y}{\Delta x}$$
+    称为$y = f(x)$ 在 $x = x_0$ 处的\textbf{右导数}, 记作$f^{\prime}_{+}(x_0)$.
+\end{definition*}
+
+由极限存在的充要条件, 可以得到:
+\begin{theorem}{导数存在的充要条件}
+    当且仅当函数的在某一点的左右导数均存在且相等时, 函数在这一点可导.
+\end{theorem}
+
+\begin{definition*}
+    如果函数$f(x)$在$(a,b)$中每一点处都可导, 则称$f(x)$在$(a,b)$上可导.
+
+    如果$f(x)$在$(a,b)$内可导, 且$f(x)$在区间左端点$a$处的右导数和右端点$b$处的左导数都存在,
+    那么$f^{\prime}(x)$称为区间$[a, b]$的\textbf{导函数}, 简称\textbf{导数}.
+\end{definition*}
+
+\begin{example}
+    证明函数$f(x)$在$x = 0$处不可导.
+\end{example}
+\begin{solution}
+    因为$$\frac{\Delta y}{\Delta x} = \frac{f(0 + \Delta x) - f(0)}{\Delta x} = \frac{f(\Delta x)}{\Delta x},$$
+    所以$$\lim_{\Delta x\rightarrow 0^-} \frac{\Delta y}{\Delta x} = \lim_{\Delta x\rightarrow 0^-} \frac{f(\Delta x)}{\Delta x} = -1, $$
+    $$\lim_{\Delta x\rightarrow 0^+} \frac{\Delta y}{\Delta x} = \lim_{\Delta x\rightarrow 0^+} \frac{f(\Delta x)}{\Delta x} = 1. $$
+
+    因此$\lim_{\Delta x\rightarrow 0^-}\neq \lim_{\Delta x\rightarrow 0^+}$, 即$f^{\prime}_{-}(x_0)\neq f^{\prime}_{+}(x_0)$.
+    由导数存在的充要条件可知, 函数$f(x)$在$x = 0$处不可导.
+\end{solution}
+
+\subsection{切线}
+
+几何上, 切线指的是一条刚好触碰到曲线上某一点的直线.
+
+设$P$和$Q$是曲线$C$上邻近的两点, $P$是定点, 当$Q$点沿着曲线$C$无限地接近$P$点时,
+割线$PQ$的极限位置$PT$叫做曲线$C$在点$P$的\textbf{切线}, $P$点叫做\textbf{切点}.
+
+对于一个函数, 如果函数的某处可导, 那么此处的导数就是过此处的切线的斜率,
+该点和斜率所构成的直线就为该函数在该点处的切线.
+
+\subsection{根据导函数求切线方程}
+
+我们以二次函数$y = f(x) = ax^2 + bx + c$为例.因为
+\begin{align*}
+    \frac{\Delta y}{\Delta x} = \frac{f(x + \Delta x) - f(x)}{\Delta x} & = \frac{a(x+\Delta x)^2 + b(x + \Delta x) - ax^2 - bx}{\Delta x} \\
+                                                                        & =\frac{a[(x+\Delta x)^2-x^2]+b\Delta x}{\Delta x}                \\
+                                                                        & =a(2x + \Delta x)+b,
+\end{align*}
+所以 $$f^{\prime}(x) = \lim_{\Delta x \rightarrow 0} \frac{\Delta y}{\Delta x} = 2ax + b.$$
+
+\setlength{\abovedisplayskip}{0pt}
+\setlength{\belowdisplayskip}{0pt}
+我们知道函数在某点的导数等于等于函数在这一点切线的斜率.我们取$x = x_0$, 设函数在点$(x_0, f(x_0))$处
+的切线$$l:y-(ax_0^2+bx_0+c) = (2ax_0+b)(x - x_0),$$
+整理得\begin{equation}y = 2ax_0x-ax_0^2+bx+c.\label{1}\end{equation}
+即$$l:y = (2ax_0+b)x+(c-ax_0^2).$$
+
+\section{半代入法求切线方程}
+
+对 \eqref{1} 式做恒等变换, 有
+$$y+ax_0^2+bx_0+c = 2ax_0x+b(x_0+x)+2c.$$
+因为$f(x_0) = ax_0^2+bx_0+c$, 所以
+$$y+f(x_0) = 2ax_0x+b(x_0+x)+2c.$$
+观察系数, 我们考虑将等号两边同时除以2, 得\vspace{1ex}
+\begin{equation}
+    \frac{y+f(x_0)}{2} = ax_0x + b\frac{x_0+x}{2}+c.\vspace{1ex}
+    \label{2}
+\end{equation}
+
+我们注意到, 如果将 \eqref{2} 式中的$x_0$换回$x$,
+$f(x_0)$换回$f(x)$, 那么 \eqref{2} 式就变为$f(x) = ax^2 + bx + c$.
+
+反过来说, 如果把$f(x) = ax^2 + bx + c$中的$x^2$变为$x_0\cdot x$, $x$和$y$分别变为
+$\displaystyle\frac{x_0+x}{2}$和$\displaystyle\frac{y_0+y}{2}$\vspace{1ex}, 我们就得到了$f(x)$在
+$x_0$处的切线方程. 这种代换方法, 看起来像是把每个变量都换掉一半.
+$$x^2\rightarrow x_0\cdot x,$$$$x\rightarrow\frac{x_0+x}{2}.$$
+我们把它叫做\textbf{半代入}.
+
+利于半代入法, 二次式降次为了一次式. 事实上, 这种方法不仅适用于求函数的切线方程, 也适用于求其他
+各种曲线的切线方程.
+
+\begin{example}
+    利用半代入法, 求圆$(x-2)^2+(y+1)^2 = 9$在$x = 3$处的切线方程.
+\end{example}
+\begin{solution}
+    把$x = 3$代入圆的方程, 解得$y_1 = 2$, $y_2 = -4$.下面分别求过圆上两点$(3, 2)$, $(3, -4)$的
+    切线方程.
+
+    将方程化为一般式, 得$$x^2 + y^2 - 2x - 1 = 0.$$
+
+    利用半代入法, 将$(3, 2)$代入方程中, 得$$3x + 2y - (3+x) - 1 = 0,$$
+    即$$x + y - 2 = 0.$$
+
+    同理, 将$(3, -4)$代入方程中, 得$$3x - 4y - (3+x) - 1 = 0,$$
+    即$$x-2y-2 = 0.$$
+
+    因此, 所求圆在$x = 3$处的两条切线分别为$x + y - 2 = 0$和$x-2y-2 = 0$.
+\end{solution}
+
+\end{document}

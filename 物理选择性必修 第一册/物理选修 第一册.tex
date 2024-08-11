@@ -38,9 +38,11 @@
 动量是状态量, 其中$v$是瞬时速度, 而不是平均速度.
 
 物体在一个过程中\textbf{动量的变化量}是
-它的末动量与初动量的矢量差, 即$$\Delta p = m\Delta v = mv^{\prime} - mv.$$
+它的末动量与初动量的矢量差.
 动量的变化量也称为\textbf{动量的增量}.如果初末动量在一条直线上, 即运动是一维的, 那么选定正方向后,
-动量的方向可以用正负号表示, 从而将矢量运算转化为代数运算.此时动量的增量为负表示动量向负方向增加.
+动量的方向可以用正负号表示, 从而将矢量运算转化为代数运算, 即
+$$\Delta p = m\Delta v = mv^{\prime} - mv.$$
+此时动量的增量$\Delta p$为负表示动量向负方向增加.
 
 \subsection{动量定理}
 
@@ -142,7 +144,7 @@ $$F_1t_1 + F_2t_2 - F_\mathrm{f}(t_1 + t_2 + t_3) = 0-0.$$
 的鞋起跳, 以与第一次相同的速度着地时, 双脚与地面间的作用时间变为$2.5t$,
 求地面对他的平均冲击力$\bar{F}$变为多少.
 
-\textbf{解}\bre 由两过程的末速度相同, 知两过程的动量变化量相同. 由动量定理指
+\textbf{解}\bre 由两过程的末速度相同, 知两过程的动量变化量相同. 由动量定理知
 两过程的合力冲量相同, 即
 $$(4G-G)t = (\bar{F} - G)2.5t.$$
 由此解得$\bar{F} = 2.2G.$
@@ -151,13 +153,13 @@ $$(4G-G)t = (\bar{F} - G)2.5t.$$
 
 \subsubsection{流体的冲力}
 \setlength{\abovedisplayskip}{3pt}
-\setlength{\belowdisplayskip}{3pt}0
-根据动量定理, 流体的冲力$F$满足$$mv = Ft.$$
+\setlength{\belowdisplayskip}{3pt}
+根据动量定理, 流体的冲力$F$满足$$Ft = mv.$$
 其中$m$为流体质量, $v$为流体速度, $t$为全过程的时间.
 
 因为流体的体积$V = vt\cdot S$($S$为流体截面), 所以
 流体的质量$m = \rho V = \rho\cdot vt \cdot S$($\rho$为流体的密度).因此
-$$\rho\cdot vt \cdot S= Ft.$$
+$$Ft = \rho\cdot vt \cdot S \cdot v.$$
 
 由此得到流体的冲力公式
 \begin{empheq}[box=\fbox]{equation*}
@@ -171,7 +173,7 @@ $$\rho\cdot vt \cdot S= Ft.$$
 
 特别地, 当物体所受的某个力$F$与物体的速度$v$成正比时(比如阻力),
 设这个力与速度的关系为$F = kv$, 那么这个力的冲量
-$$I_\mathrm{F} = \sum F_i\Delta t_i =\sum kv_i\Delta t_i= ks.$$
+$$I_F = \sum F_i\Delta t_i =\sum kv_i\Delta t_i= ks.$$
 其中$F_i, v_i$分别是物体在每个极短时间$\Delta t_i$内的力和速度, $s$是物体的位移.
 
 \subsection{动量守恒定律}
@@ -230,7 +232,7 @@ $F_1$与$F_2$大小相等, 方向相反, 即$F_1 = -F_2$.
     p = p^{\prime}.
 \end{empheq}
 其中$p$, $p^{\prime}$分别为系统的初动量, 末动量. 这种形式不限制系统内的物体数量.
-当系统中有两个物体时, 上式式可以写成
+当系统中有两个物体时, 上式可以写成
 \begin{empheq}[box=\fbox]{equation*}
     m_1v_1 + m_2v_2 = m_1v_1^{\prime} + m_2v_2^{\prime}.
 \end{empheq}

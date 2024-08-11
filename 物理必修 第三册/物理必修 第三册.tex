@@ -4,9 +4,12 @@
 \author{啊波呲}
 
 \setlength{\parskip}{0em}
-\usepackage{amsmath,mathtools,amssymb,geometry,wrapfig,graphicx,empheq,pifont}
+\usepackage{amsmath,mathtools,amssymb,geometry,wrapfig,graphicx,empheq,pifont,enumitem}
 \renewcommand{\baselinestretch}{1.77}
 \geometry{left=1.5cm,right=1.5cm,bottom=2.1cm,top=2.5cm}
+\setenumerate[1]{itemsep=1pt,partopsep=0pt,parsep=\parskip,topsep=3pt}
+\setitemize[1]{itemsep=1pt,partopsep=0pt,parsep=\parskip,topsep=3pt}
+
 \usepackage{tikz}
 \usepackage{xcolor}
 \newcounter{exam}[section]
@@ -17,8 +20,8 @@
 \newcommand{\notes}{\textbf{注意}\bre}
 \newcommand{\unit}[1]{\ \mathrm{#1}}
 
-\newenvironment{example}{\par\refstepcounter{exam}\examlabel\bre}{\par}
-\newenvironment{solution}{\par\soln}{\par}
+\newenvironment{example}{\bigskip\par\refstepcounter{exam}\examlabel\bre}{\par}
+\newenvironment{solution}{\par\soln}{\par\bigskip}
 
 \begin{document}
 \maketitle
@@ -32,12 +35,6 @@
 \setlength{\belowdisplayskip}{3pt}
 
 \section{静电场}
-% \begin{empheq}[box=\fbox]{equation*}
-%     1
-% \end{empheq}
-
-% \refstepcounter{exam}
-% \subparagraph{例\theexam}
 
 \subsection{电荷}
 \subsubsection{电荷}
@@ -126,7 +123,7 @@ $$\frac{e}{m_e} = 1.76 \times 10^{11}\ \mathrm{C/kg}.$$
 \begin{empheq}[box=\fbox]{equation*}
     F = k\frac{q_1q_2}{r^2}.
 \end{empheq}
-式中的$k$是比例系数, 叫作\textbf{静电力常量}.当两个点电荷所带
+式中的$k$是比例系数, 叫做\textbf{静电力常量}.当两个点电荷所带
 的电荷量为同种时, 它们之间的作用力为斥力; 反之, 为
 异种时, 它们之间的作用力为引力.
 在国际单位制中, 电荷量的单位是库仑（C）, 力的单
@@ -140,7 +137,7 @@ $$k = 9.0 \times 10^9\ \mathrm{N\cdot m^2/C^2}.$$
 
 当带电体之间的距离比它们自身的大小大得多, 以致带电体的形状, 大小及电荷分布状
 况对它们之间的作用力的影响可以忽略时, 这样的带电体可以看作带电的点, 叫做\textbf{点电荷}.
-\\
+\bigskip
 
 库仑定律描述的是两个点电荷之间的作用力.如果存
 在两个以上点电荷, 那么, 每个点电荷都要受到其他所有
@@ -232,7 +229,6 @@ $$k = 9.0 \times 10^9\ \mathrm{N\cdot m^2/C^2}.$$
 量和.由此可以推理, 如果场源是多个点电荷, 则电场中
 某点的电场强度等于各个点电荷单独在该点产生的电场强
 度的矢量和.
-\\
 
 \begin{example}
     在某电场中的$P$点, 放一带电量$q_1 = -3.0\times 10^{-10}\unit{C}$的试探电荷,
@@ -253,7 +249,7 @@ $$k = 9.0 \times 10^9\ \mathrm{N\cdot m^2/C^2}.$$
     $F_2$的方向与$P$点的场强方向相同,即水平向左.
 \end{solution}
 
-\subsubsection{电场线}
+\subsubsection*{电场线}
 
 除了用数学公式描述电场外, 形象地了解和描述电场中
 各点电场强度的大小和方向也很重要.
@@ -263,18 +259,10 @@ $$k = 9.0 \times 10^9\ \mathrm{N\cdot m^2/C^2}.$$
 较小的地方电场线较疏, 因此在同一幅图中可以用电场线
 的疏密来比较各点电场强度的大小.
 
-电场线有以下两个特点:
-
-(1) 电场线从正电荷或无限远出发, 终止于无限远或
-负电荷;
-
-(2) 电场线在电场中不相交, 这是因为在电场中任意
-一点的电场强度不可能有两个方向.
-
 \subsubsection*{匀强电场}
 
 如果电场中各点的电场强度的大小相等,方向相同,
-这个电场就叫作\textbf{匀强电场}.
+这个电场就叫做\textbf{匀强电场}.
 
 由于方向相同, 匀强电场中的
 电场线应该是平行的; 又由于电场强度大小相等, 电场线
@@ -283,19 +271,21 @@ $$k = 9.0 \times 10^9\ \mathrm{N\cdot m^2/C^2}.$$
 
 \subsection{静电场中的能量}
 
+
 我们知道, 电荷在电场中会受到静电力, 若电荷发生位移, 则静电力可能会做功. 我们可以以此为突破,
 了解电场中的能量.
+\subsubsection{电势能}
 
 \subsubsection*{静电力做功的特点}
+\label{section:静电力做功的特点}
+
 
 实验发现, 将一个试探电荷$q$从$A$点移动到$B$点, 无论是沿直线移动, 还是沿折线或曲线移动, 静电力做
 的功都相等.这就是说, 在静电场中移动电荷时, 静电力所做的功只与电荷的初末位置有关, 而与电荷经过的路径
 无关. 因此, 与重力一样, \textbf{静电力属于保守力}.
 
-我们知道, 静电力对电荷做的功应该等于静电力的大小, 电荷的位移大小, 静电力与位移夹角的余弦值这三者的乘积.
-即$$W = Fl\cos \theta = qEl\cos \theta.$$
+\subsubsection*{电势能}
 
-\subsubsection{电势能}
 与物体在重力场中具有重力势能类似, 电荷在静电场中具有\textbf{电势能}, 用$E_p$表示.
 
 如果用$W_{AB}$表示电荷由 $A$ 点运动到 $B$ 点静电力所做的
@@ -311,14 +301,15 @@ $$W_{AB} = -\Delta E_\mathrm{p}.$$
 
 这满足保守力做功的规律.
 
-\subparagraph{电势能的相对性} 静电力做的功只能决定电势能的变化量,
+\subparagraph{电势能的相对性}
+静电力做的功只能决定电势能的变化量,
 而不能决定电荷在电场中某点电势能的数值.只有先把电
 场中某点的电势能规定为 0, 才能确定电荷在电场中其他
 点的电势能.
 
 通常,我们把电荷在离场源电荷无限远处的电势能规定为 0,
 或把电荷在大地表面的电势能规定为 0.
-\\
+\bigskip
 
 规定离场源电荷$Q$无限远处的电势能为 0, 若将一个电荷$q$从$A$点移动到无限远处,
 根据$W_{AB} = E_{\mathrm{p}A} - E_{\mathrm{p}B}$可得$$W_{A\rightarrow \infty} = E_{\mathrm{p}A} - 0 =E_{\mathrm{p}A}.$$
@@ -327,7 +318,7 @@ $$W_{AB} = -\Delta E_\mathrm{p}.$$
 
 如果场源电荷$Q$是点电荷, $A$点到场源电荷的距离为$r$, 根据库仑定律,
 通过数学推导可以得到
-$$E_{\mathrm{p}A} = W_{A\rightarrow \infty} = Fl = k\frac{Qq}{r}.$$
+$$E_{\mathrm{p}A} = W_{A\rightarrow \infty} = Fl = qEl = k\frac{Qq}{r}.$$
 式中$l$表示$A$点到无限远处的距离, $k$是静电力常量. 这里$Q$与$q$的正负要代入计算.
 推导过程涉及高等数学知识, 故不做展开.
 
@@ -339,7 +330,7 @@ $$E_{\mathrm{p}A} = W_{A\rightarrow \infty} = Fl = k\frac{Qq}{r}.$$
     \label{点电荷附近的电势能}
 \end{empheq}
 式中, $k$是静电力常量, $r$是场源点电荷$Q$与试探电荷$q$的距离.
-\\
+\bigskip
 
 应该注意, 电势能是相互作用的电荷所共有
 的, 或者说是电荷及对它作用的电场所共有的.我们刚才说某
@@ -369,16 +360,12 @@ $$E_{\mathrm{p}A} = W_{A\rightarrow \infty} = Fl = k\frac{Qq}{r}.$$
 能是 1 J, 这一点的电势就是 1 V, 即
 1 V = 1 J/C.
 
-假如正的试探电荷沿着电场线的方向向外移动(场源电荷是正电荷),
+假如正的试探电荷沿着电场线的方向向外移动,
 它的电势能是逐渐减少的. 可以说, \textbf{沿着电
     场线方向电势逐渐降低}.
 
-假如负的试探电荷沿着电场线的方向向外移动(场源电荷是正电荷),
-那么它的电势能的绝对值是逐渐减少的; 而它的电势能是负值, 所以电势能是逐渐增加的.
-
 与电势能的情况相似, 应该先规定电场中某处的电势
-为 0, 然后才能确定电场中其他各点的电势.在规定了零电势点之后, 电场中各点的电势可以是正
-值, 也可以是负值.
+为 0, 然后才能确定电场中其他各点的电势.
 
 当规定无穷远处为零电势点时, 如果场源电荷是点电荷, 根据点电荷附近附近某点的电势能公式 \eqref{点电荷附近的电势能} 可知
 \begin{empheq}[box=\fbox]{equation*}
@@ -402,8 +389,196 @@ $r$为这一点到场源电荷的距离.
 
 \subsubsection{电势差}
 
+选择不同的位置作为零电势点, 电场中某点电势的数
+值也会改变, 但电场中某两点之间电势的差值却保持不变.
+\setlength{\abovedisplayskip}{0pt}
+\setlength{\belowdisplayskip}{0pt}
+
+在电场中, 两点之间电势的差值叫做\textbf{电势差}, 电势差也叫做\textbf{电压}.
+设电场中 $A$ 点的电势为 $\varphi_A$, $B$ 点的电势为 $\varphi_B$, 则它们之间的电势差
+可以表示为
+$$U_{AB} = \varphi_A - \varphi_B.$$
+也可以表示为
+$$U_{BA} = \varphi_B - \varphi_A.$$
+显然
+$$U_{AB} = -U_{BA}.$$
+
+电势的值是相对的, 与零电势点的选取有关; 而电势的差值是绝对的, 与零电势点的选取无关.
+
+\subsubsection*{静电力做功与电势差的关系}
+
+将点电荷$q$从$A$点移向$B$点, 静电力做的功$W_{AB}$为电荷$q$在这两点所具有的电势能之差.
+由此可以导出静电力做功与电势差的关系.
+\begin{align*}
+    W_{AB}  = E_{\mathrm{p}A} - E_{\mathrm{p}B}
+     & =q\varphi_A - q\varphi_B  \\
+     & =q(\varphi_A - \varphi_B) \\
+     & =qU_{AB}.
+\end{align*}
+即
+\begin{empheq}[box=\fbox]{equation*}
+    U_{AB} = \frac{W_{AB}}{q}.
+\end{empheq}
+\setlength{\abovedisplayskip}{5pt}
+\setlength{\belowdisplayskip}{5pt}
+\begin{example}
+    在静电场中, 将一带电量$q = -1.5\times 10^{-6}\unit{C}$的电荷从$A$点移向$B$点,
+    电势能减少$3.0\times 10^{-4}\unit{J}$. 如果将该电荷从$C$点移向$A$点, 克服静电力
+    做功$1.5\times 10^{-4}\unit{J}$. 取无穷远处为零电势点.
+
+    (1) 求$A, B$两点间的电势差, $A, C$两点间的电势差和$B, C$两点间的电势差;
+
+    (2)若将此电荷从$A$点移动至无穷远处, 克服静电力做功为$6.0\times 10^{-4}\unit{J}$,
+    求电荷在$A$点的电势能;
+
+    (3)若规定$C$点处电势为0, 求$A$点电势和电荷在$B$点的电势能;
+
+    (4)如果将带电量为$2.0\times 10^{-6}\unit{J}$的正电荷从$A$点移向$B$点, 求静电力做的功.
+\end{example}
+\begin{solution}
+    (1) 电荷从$A$点移向$B$点,
+    电势能减少$3.0\times 10^{-4}\unit{J}$,说明静电力做功$3.0\times 10^{-4}\unit{J}$.
+    根据静电力做功与电势差的关系, $A, B$间的电势差
+    $$U_{AB} = \frac{W_{AB}}{q} = \frac{3.0\times 10^{-4}}{-1.5\times 10^{-6}}\unit{V} = -200\unit{V}.$$
+
+    电荷从$C$点移向$A$点, 克服静电力做功$1.5\times 10^{-4}\unit{J}$, 说明从$A$点移向$C$点,
+    静电力做功$1.5\times 10^{-4}\unit{J}$.同样, 根据静电力做功与电势差的关系, $A, C$间的电势差
+    $$U_{AC} = \frac{W_{AC}}{q} = -100\unit{V}.$$
+    \setlength{\abovedisplayskip}{0pt}
+    \setlength{\belowdisplayskip}{0pt}
+
+    根据电势差的定义, 有
+    \begin{align*}
+        U_{AB} = \varphi_A - \varphi_B, \tag{i - a}\label{例题2-ia} \\
+        U_{AC} = \varphi_A - \varphi_C, \tag{i - b}\label{例题2-ib} \\
+        U_{BC} = \varphi_A - \varphi_C.\tag{i - c}\label{例题2-ic}
+    \end{align*}
+    由 \eqref{例题2-ia} \eqref{例题2-ib} 可得, $B, C$两点间的电势差
+    $$U_{BC} = U_{AC} - U_{BC} = -100\unit{V} - -200\unit{V} = 100\unit{V}.$$
+
+    (2) 以无穷远处为零电势点时, 电场中某电荷的电势能, 等于将该电荷从该点移动到无穷远处静电力所做的功.
+    因此电荷在$A$点的电势能$$E_\mathrm{p}A = W_{A\rightarrow \infty} = -6.0\times 10^{-4}\unit{J}.$$
+
+    (3)规定$C$点处电势为0, 即$\varphi_C = 0$, 那么由 \eqref{例题2-ib} 式可得, $A$点处的电势
+    $$\varphi_A = U_{AC} + \varphi_C = U_{AC} = -100\unit{V}.$$
+
+    \setlength{\abovedisplayskip}{5pt}
+    \setlength{\belowdisplayskip}{5pt}
+    根据电势的定义, $B$点的电势等于电荷$q$在$B$点的电势能除以它的电荷量, 即
+    \begin{equation*}
+        \varphi_B = \frac{E_\mathrm{p}B}{q}.
+        \tag{ii}
+        \label{例题2-ii}
+    \end{equation*}
+
+    由 \eqref{例题2-ic} 式和 \eqref{例题2-ii} 式可得$E_\mathrm{p}B = -1.5\times 10^{-4}\unit{J}.$
+    \setlength{\abovedisplayskip}{0pt}
+    \setlength{\belowdisplayskip}{0pt}
+
+    (4) 将带电量为$2.0\times 10^{-6}\unit{J}$的正电荷从$A$点移向$B$点,静电力做的功为
+    $$W_{AB} = q^{\prime}U_{AB} = -1.5\times 10^{-6}\unit\times -200 \unit{J} = 3.0\times 10^{-4}\unit{J}.$$
+    即静电力做正功$3.0\times 10^{-4}\unit{J}$.
+
+\end{solution}
+
+\subsection{电场的图形描述}
+
+\subsubsection{电场线}
+前面我们已经了解过了电场线 现在我们来进一步学习它.
+
+为了形象地描述电场, 我们人为的画出假想曲线.电场线的特点如下.
+
+\begin{enumerate}
+    \item 电场线从正电荷或无限远出发, 终止于无限远或
+          负电荷;
+    \item 电场线在电场中不相交, 这是因为在电场中任意
+          一点的电场强度不可能有两个方向;
+    \item 电场线上各点的切线方向是该点电场强度的方向;
+    \item 电场的疏密反映了电场的强弱, 电场线越密, 电场越强;
+    \item 电场线不是客观存在的, 是为了形象描述电场而假想的.
+\end{enumerate}
+
+电场线反映了某点电场的强弱.例如, 我们知道, 等量同种电荷连线的中点处电场强度为0, 因此,
+在绘制电场线时, 这一点是空出来的, 代表这一点无电场.
+
 \subsubsection{等势面}
 
+电场中电势相同的各点构成的面叫做等势面.
+
+根据等势面的定义, 要使得同一个面上的各点电势相同, 需使得同一电荷在这个面上各点的电势能相同.
+即电荷在这个面上运动时, 静电力不做功, 应有静电力的方向时刻跟等势面垂直, 即与电场线垂直. 否则,
+电场强度就有一个沿着等势面的分量, 在等势面上移动电荷时静电力就要做功, 这与这个面
+是等势面矛盾. 前面已经说过, 沿着电场线方向电势逐渐降低. 因此, 概括起来就是:
+\textbf{电场线跟等势面垂直,并且由电势高的等势面指向电势低的等势面}.
+
+等势面的特点如下.
+\begin{enumerate}
+    \item 等势面一定跟电场线垂直;
+    \item 电场线总是从电势高的等势面指向电势低的等势面;
+    \item 不同的等势面不会相交;
+    \item 如果等势面是等差的, 那么等势面越密, 电场强度越大;
+    \item 在同一等势面上移动电荷时, 静电力不做功.
+\end{enumerate}
+
+
 \subsection{电势差与电场强度的关系}
+
+\begin{wrapfigure}{r}{5cm}
+    \flushright
+    \includegraphics[width=0.32\textwidth]{pic/pic1.6-1.pdf}
+    \label{1.6-1}
+\end{wrapfigure}
+
+电场线是描述电场强度的,等势线是描述电势的,电场
+线和等势线的疏密存在对应关系,表明电场强度和电势之间
+存在一定的联系.下面以匀强电场为例讨论它们的关系.
+\setlength{\abovedisplayskip}{0pt}
+\setlength{\belowdisplayskip}{0pt}
+
+如图所示, 假设电荷$q$在强度为$E$的\textbf{匀强电场}中沿着静电力$F$的方向从$A$点运动到$B$点, 电荷
+所受的静电力为$F = qE$. 因为是匀强电场, 所以这个力是恒力, 它所做的功为
+\begin{equation}
+    W = Fd = qEd.
+    \label{静电力做功1}
+\end{equation}
+
+除此之外, 静电力做功$W$与$A, B$两点间电势差$U_{AB}$的关系为
+\begin{equation}
+    W = qU_{AB}.
+    \label{静电力做功2}
+\end{equation}
+
+比较 \eqref{静电力做功1} 与 \eqref{静电力做功2}, 得到
+\begin{empheq}[box=\fbox]{equation*}
+    U_{AB} = Ed.
+    \label{电势差与电场强度的关系1}
+\end{empheq}
+即: \textbf{匀强电场中两点间的电势差等于电场强度与这两点沿
+    电场方向的距离的乘积.}
+\setlength{\abovedisplayskip}{5pt}
+\setlength{\belowdisplayskip}{5pt}
+
+电势差与电场强度的关系也可以写作
+\begin{empheq}[box=\fbox]{equation*}
+    E = \frac{U_{AB}}{d}.
+    \label{电势差与电场强度的关系2}
+\end{empheq}
+它的意义是,在匀强电场中, 电场强度的大小等于两点
+之间的电势差与两点沿电场强度方向的距离之比,
+也就是说, \textbf{匀强电场的电场强度在数值上等于沿电场强度方向上单位距离的电势差.}
+所以说, \textbf{电场强度的
+    方向为电场中电势降低最快的方向}.
+
+因为 $d$ 是电荷位移沿电场强度方向的分量, 所以说, \textbf{电场强度的方向就是电场中电势降低最快的方向}.
+
+应该注意, 上面的结论只适用于匀强电场.事实上, 利用微元的思想, 我们在一般电场中有
+$$E = \lim_{\Delta d\rightarrow 0} -\frac{\Delta \varphi}{\Delta d}.$$
+(式中$\Delta d$为电荷沿电场强度方向的微小位移, $\Delta \varphi$为末电势与初电势的差值)即电场强度反映电势随空间的变化率,
+这类似于加速度与速度的关系.对于非匀强电场的情况, 我们也可以用上式做定性判断.
+
+\subsubsection*{利用``等分法''确定匀强电场强度的方向}
+
+由于匀强电场的电场强度与电势差的关系存在上述结论, 因此, 已知电场中任意三点的电势时, 可以将电势差最大的两点连线均分.
+我们总能在连线上找到一点, 使它与第三点的电势相等. 连接该点与第三点就得到一条等势线, 而与等势线垂直的方向即为电场方向.
 
 \end{document}
