@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.15)  10 AUG 2024 23:34
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.15)  13 AUG 2024 02:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -378,6 +378,12 @@ Package: enumitem 2019/06/20 v3.9 Customized lists
 \enit@inbox=\box61
 \enit@count@id=\count312
 \enitdp@description=\count313
+) (c:/texlive/2023/texmf-dist/tex/latex/was/upgreek.sty
+Package: upgreek 2003/02/12 v2.0 (WaS)
+Package upgreek Info: Using Euler Roman for upright Greek on input line 31.
+\symugrf@m=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `ugrf@m' in version `bold'
+(Font)                  U/eur/m/n --> U/eur/b/n on input line 38.
 ) (c:/texlive/2023/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (c:/texlive/2023/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (c:/texlive/2023/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (c:/texlive/2023/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
 \pgfutil@everybye=\toks25
 \pgfutil@tempdima=\dimen273
@@ -599,7 +605,7 @@ LaTeX Font Info:    ... okay on input line 26.
 Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
 (fontspec)             this).
 
-\symlegacymaths=\mathgroup6
+\symlegacymaths=\mathgroup7
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
 (Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 26.
 LaTeX Font Info:    Redeclaring math accent \acute on input line 26.
@@ -694,31 +700,55 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 LaTeX Font Info:    Trying to load font information for U+msb on input line 27.
  (c:/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) (./物理必修 第三册.toc)
+) (./物理必修 第三册.toc [1
+
+])
 \tf@toc=\write4
 \openout4 = `"物理必修 第三册.toc"'.
 
- [1
-
-]
 LaTeX Font Info:    Font shape `TU/SimSun(0)/m/sl' in size <12> not available
-(Font)              Font shape `TU/SimSun(0)/m/it' tried instead on input line 83.
- [1] [2] [3] [4] [5] [6] [7] [8] [9] [10] [11]
+(Font)              Font shape `TU/SimSun(0)/m/it' tried instead on input line 31.
+ [2] [1] [2] [3] [4] [5] [6] [7] [8] [9] [10] [11]
 File: pic/pic1.6-1.pdf Graphic file (type pdf)
 <use pic/pic1.6-1.pdf>
 
-Overfull \hbox (21.62784pt too wide) in paragraph at lines 528--530
+Overfull \hbox (21.62784pt too wide) in paragraph at lines 530--532
  []
  []
 
-[12] [13] (./物理必修 第三册.aux) ) 
+[12]
+Missing character: There is no ′ (U+2032) in font [lmroman12-regular]:mapping=tex-text;!
+[13] [14] [15] [16]
+File: pic/1.7-1.pdf Graphic file (type pdf)
+<use pic/1.7-1.pdf>
+
+Overfull \hbox (11.38266pt too wide) in paragraph at lines 747--749
+ []
+ []
+
+[17]
+File: pic/1.7-2.pdf Graphic file (type pdf)
+<use pic/1.7-2.pdf>
+
+Overfull \hbox (11.38266pt too wide) in paragraph at lines 771--773
+ []
+ []
+
+File: pic/1.7-3.pdf Graphic file (type pdf)
+<use pic/1.7-3.pdf>
+
+Overfull \hbox (11.38266pt too wide) in paragraph at lines 785--787
+ []
+ []
+
+[18] [19] (./物理必修 第三册.aux) ) 
 Here is how much of TeX's memory you used:
- 21067 strings out of 476683
- 495219 string characters out of 5807574
- 1863012 words of memory out of 5000000
- 40949 multiletter control sequences out of 15000+600000
- 522087 words of font info for 93 fonts, out of 8000000 for 9000
+ 21190 strings out of 476683
+ 495169 string characters out of 5807574
+ 1864012 words of memory out of 5000000
+ 41057 multiletter control sequences out of 15000+600000
+ 524729 words of font info for 105 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  89i,12n,97p,441b,282s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on 物理必修 第三册.pdf (14 pages).
+Output written on 物理必修 第三册.pdf (21 pages).
