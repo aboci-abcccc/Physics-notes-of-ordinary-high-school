@@ -1,0 +1,50 @@
+\documentclass[12pt,a4paper]{ctexart}
+
+\title{标题}
+\author{啊波呲}
+
+\setlength{\parskip}{0em}
+\usepackage{amsmath,mathtools,amssymb,geometry,wrapfig,graphicx,empheq,pifont}
+\renewcommand{\baselinestretch}{1.8}
+\geometry{left=1.5cm,right=1.5cm,bottom=2.1cm,top=2.5cm}
+\usepackage{tikz}
+\usepackage{xcolor}
+\newcounter{exam}[section]
+\setcounter{exam}{0}
+
+\begin{document}
+\maketitle
+\pagenumbering{roman}
+\tableofcontents
+
+\newpage
+\pagenumbering{arabic}
+
+\setlength{\abovedisplayskip}{3pt}
+\setlength{\belowdisplayskip}{3pt}
+
+先解不等式$x^2-(2a+2)x+2a<0$.
+
+令$x^2-(2a+2)x+2a = 0.$ 由求根公式得
+$$x = a+1 \pm \sqrt{a^2+a}.$$
+所以$$\text{左边} = x^2-(2a+2)x+2a = (x-(a+1 + \sqrt{a^2+a}))(x - (a+1 - \sqrt{a^2+a})).$$
+于是原不等式等价于$$(x-(a+1 + \sqrt{a^2+a}))(x - (a+1 - \sqrt{a^2+a}))<0.$$
+
+因为$(a+1 - \sqrt{a^2+a}) < (a+1 + \sqrt{a^2+a})$, 所以原不等式的解集为
+$$a+1 - \sqrt{a^2+a} < x <a+1 + \sqrt{a^2+a}.$$
+
+由该不等式有且只有三个整数解, 可知$$4<2a+1\leqslant 5.$$
+解得$a$
+
+% \begin{wrapfigure}{r}{4cm}
+%     \flushright %右侧对齐
+%     \includegraphics[width=0.25\textwidth]{路径}
+%     \label{fig}
+% \end{wrapfigure}
+
+% \begin{empheq}[box=\fbox]{equation}
+%     \label{平抛运动轨迹方程}
+%     y=\frac{g}{2{v_0}^2}x^2.
+% \end{empheq}
+
+\end{document}

@@ -1,13 +1,9 @@
-\contentsline {section}{\numberline {1}研究背景}{1}{}%
-\contentsline {section}{\numberline {2}研究目标}{1}{}%
-\contentsline {section}{\numberline {3}研究成果}{1}{}%
-\contentsline {subsection}{\numberline {3.1}代数基本定理的演化和证明史}{1}{}%
-\contentsline {subsection}{\numberline {3.2}复数的表示\ \ \ 复变函数}{3}{}%
-\contentsline {subparagraph}{代数基本定理}{3}{}%
-\contentsline {subsubsection}{\numberline {3.2.1}复数的三角表示与指数表示}{3}{}%
-\contentsline {subsubsection}{\numberline {3.2.2}复变函数}{4}{}%
-\contentsline {subsection}{\numberline {3.3}代数基本定理的简单证明}{4}{}%
-\contentsline {subparagraph}{代数基本定理}{5}{}%
-\contentsline {subsection}{\numberline {3.4}代数基本定理的推论}{6}{}%
-\contentsline {subparagraph}{推论}{6}{}%
-\contentsline {subsection}{\numberline {3.5}一元多项式方程根与系数的关系}{7}{}%
+\contentsline {section}{\numberline {1}复数的表示\ \ \ 复变函数}{1}{}%
+\contentsline {subparagraph}{代数基本定理}{1}{}%
+\contentsline {subsection}{\numberline {1.1}复数的三角表示与指数表示}{1}{}%
+\contentsline {subsection}{\numberline {1.2}复变函数}{2}{}%
+\contentsline {section}{\numberline {2}代数基本定理的简单证明}{2}{}%
+\contentsline {subparagraph}{代数基本定理}{2}{}%
+\contentsline {section}{\numberline {3}代数基本定理的推论}{4}{}%
+\contentsline {subparagraph}{推论}{4}{}%
+\contentsline {section}{\numberline {4}一元多项式方程根与系数的关系}{5}{}%
