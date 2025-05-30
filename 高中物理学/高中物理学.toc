@@ -1,0 +1,344 @@
+\contentsline {part}{第一部分\hspace {1em}运动与力}{1}{}%
+\contentsline {chapter}{\numberline {第一章\hspace {.3em}}运动的描述}{3}{}%
+\contentsline {section}{\numberline {1.1}参考系}{3}{}%
+\contentsline {section}{\numberline {1.2}时间\ \ \ 位移}{4}{}%
+\contentsline {subsection}{\numberline {1.2.1}时间间隔\ \ \ 时刻}{4}{}%
+\contentsline {subsection}{\numberline {1.2.2}位移}{4}{}%
+\contentsline {subsubsection}{位移\ \ \ 路程}{4}{}%
+\contentsline {subsubsection}{直线运动的位移}{4}{}%
+\contentsline {subsubsection}{位置—时间图像}{5}{}%
+\contentsline {section}{\numberline {1.3}速度\ \ \ 加速度}{5}{}%
+\contentsline {subsection}{\numberline {1.3.1}速度}{5}{}%
+\contentsline {subsubsection}{速度}{5}{}%
+\contentsline {subsubsection}{平均速度与瞬时速度}{6}{}%
+\contentsline {section}{\numberline {1.4}加速度}{7}{}%
+\contentsline {subsubsection}{速度—时间图像}{7}{}%
+\contentsline {chapter}{\numberline {第二章\hspace {.3em}}匀变速直线运动}{9}{}%
+\contentsline {section}{\numberline {2.1}匀变速直线运动的规律}{9}{}%
+\contentsline {subsection}{\numberline {2.1.1}速度与时间的关系}{9}{}%
+\contentsline {subsection}{\numberline {2.1.2}位移与时间的关系}{10}{}%
+\contentsline {subsection}{\numberline {2.1.3}速度与位移的关系}{12}{}%
+\contentsline {section}{\numberline {2.2}自由落体运动\ \ \ 竖直上抛运动}{12}{}%
+\contentsline {subsection}{\numberline {2.2.1}自由落体运动}{12}{}%
+\contentsline {subsection}{\numberline {2.2.2}竖直上抛运动}{13}{}%
+\contentsline {subsubsection}{运动规律}{13}{}%
+\contentsline {subsubsection}{运动的对称性}{14}{}%
+\contentsline {section}{\numberline {2.3}应用:刹车问题}{15}{}%
+\contentsline {section}{\numberline {2.4}匀变速直线运动的推论}{17}{}%
+\contentsline {subsection}{\numberline {2.4.1}平均速度\ \ \ 中央位移处的瞬时速度}{17}{}%
+\contentsline {subsection}{\numberline {2.4.2}相邻且相等的时间间隔的位移差恒定}{19}{}%
+\contentsline {subsection}{\numberline {2.4.3}比例法}{19}{}%
+\contentsline {subsubsection}{相邻且相等的时间间隔的位移之比}{19}{}%
+\contentsline {subsubsection}{相邻且相等的位移间隔的速度之比}{20}{}%
+\contentsline {section}{\numberline {2.5}变换参考系}{20}{}%
+\contentsline {subsection}{\numberline {2.5.1}惯性系与非惯性系}{20}{}%
+\contentsline {chapter}{\numberline {第三章\hspace {.3em}}力}{21}{}%
+\contentsline {section}{\numberline {3.1}力的分类}{21}{}%
+\contentsline {subsection}{\numberline {3.1.1}重力}{21}{}%
+\contentsline {subsection}{\numberline {3.1.2}弹力}{22}{}%
+\contentsline {subsubsection}{弹力}{22}{}%
+\contentsline {subsubsection}{胡克定律}{22}{}%
+\contentsline {subsection}{\numberline {3.1.3}摩擦力}{22}{}%
+\contentsline {subsubsection}{滑动摩擦力}{22}{}%
+\contentsline {subsubsection}{静摩擦力}{23}{}%
+\contentsline {section}{\numberline {3.2}力的合成与分解}{23}{}%
+\contentsline {section}{\numberline {3.3}牛顿第三定律}{23}{}%
+\contentsline {chapter}{\numberline {第四章\hspace {.3em}}运动与力的关系}{25}{}%
+\contentsline {subsection}{\numberline {4.0.1}牛顿第一定律}{25}{}%
+\contentsline {subsection}{\numberline {4.0.2}牛顿第二定律}{25}{}%
+\contentsline {chapter}{\numberline {第五章\hspace {.3em}}运动的合成与分解}{27}{}%
+\contentsline {section}{\numberline {5.1}曲线运动}{27}{}%
+\contentsline {section}{\numberline {5.2}运动的合成与分解}{28}{}%
+\contentsline {section}{\numberline {5.3}应用:小船过河问题}{28}{}%
+\contentsline {chapter}{\numberline {第六章\hspace {.3em}}平抛运动}{31}{}%
+\contentsline {section}{\numberline {6.1}平抛运动}{31}{}%
+\contentsline {subparagraph}{推论 1}{32}{}%
+\contentsline {subparagraph}{推论 2}{32}{}%
+\contentsline {subparagraph}{例1}{33}{}%
+\contentsline {subparagraph}{例2}{34}{}%
+\contentsline {section}{\numberline {6.2}起落于斜面的平抛运动}{35}{}%
+\contentsline {chapter}{\numberline {第七章\hspace {.3em}}圆周运动}{37}{}%
+\contentsline {section}{\numberline {7.1}圆周运动的运动参量}{37}{}%
+\contentsline {subsection}{\numberline {7.1.1}线速度\ \ 角速度}{37}{}%
+\contentsline {subsection}{\numberline {7.1.2}周期}{37}{}%
+\contentsline {subsection}{\numberline {7.1.3}频率\ \ 转速}{38}{}%
+\contentsline {subsection}{\numberline {7.1.4}向心力\ \ 向心加速度}{38}{}%
+\contentsline {section}{\numberline {7.2}水平面上的圆周运动}{38}{}%
+\contentsline {section}{\numberline {7.3}竖直平面上的圆周运动}{40}{}%
+\contentsline {subsection}{\numberline {7.3.1}竖直圆周的动力学分析}{40}{}%
+\contentsline {subsection}{\numberline {7.3.2}竖直圆周的临界问题}{40}{}%
+\contentsline {section}{\numberline {7.4}生活中的圆周运动}{41}{}%
+\contentsline {chapter}{\numberline {第八章\hspace {.3em}}万有引力与宇宙航行}{43}{}%
+\contentsline {section}{\numberline {8.1}万有引力}{43}{}%
+\contentsline {subsection}{\numberline {8.1.1}行星运动的科学史}{43}{}%
+\contentsline {subparagraph}{开普勒第一定律}{43}{}%
+\contentsline {subparagraph}{开普勒第二定律}{43}{}%
+\contentsline {subparagraph}{开普勒第三定律}{43}{}%
+\contentsline {subsection}{\numberline {8.1.2}万有引力}{44}{}%
+\contentsline {subparagraph}{万有引力定律}{44}{}%
+\contentsline {subsection}{\numberline {8.1.3}称量天体的质量}{44}{}%
+\contentsline {section}{\numberline {8.2}万有引力与重力}{44}{}%
+\contentsline {subparagraph}{1. 地球表面的重力加速度}{44}{}%
+\contentsline {subparagraph}{2. 不同高度处的重力加速度}{45}{}%
+\contentsline {subparagraph}{3. 不同深度处的重力加速度}{45}{}%
+\contentsline {subparagraph}{黄金代换式}{45}{}%
+\contentsline {section}{\numberline {8.3}万有引力与宇宙航行}{46}{}%
+\contentsline {subsection}{\numberline {8.3.1}宇宙航行的定量计算}{46}{}%
+\contentsline {subsection}{\numberline {8.3.2}宇宙航行的定性分析}{46}{}%
+\contentsline {subsection}{\numberline {8.3.3}三种宇宙速度}{46}{}%
+\contentsline {subparagraph}{第一宇宙速度}{46}{}%
+\contentsline {subparagraph}{第二宇宙速度}{47}{}%
+\contentsline {subparagraph}{第三宇宙速度}{47}{}%
+\contentsline {subsection}{\numberline {8.3.4}变轨问题}{47}{}%
+\contentsline {subsection}{\numberline {8.3.5}双星系统}{48}{}%
+\contentsline {chapter}{\numberline {第九章\hspace {.3em}}功和能}{51}{}%
+\contentsline {section}{\numberline {9.1}功}{51}{}%
+\contentsline {section}{\numberline {9.2}功率}{53}{}%
+\contentsline {section}{\numberline {9.3}能量}{53}{}%
+\contentsline {subsection}{\numberline {9.3.1}重力势能}{53}{}%
+\contentsline {subparagraph}{重力势能的相对性}{54}{}%
+\contentsline {subsection}{\numberline {9.3.2}弹性势能}{54}{}%
+\contentsline {subsection}{\numberline {9.3.3}动能和动能定理}{54}{}%
+\contentsline {subparagraph}{动能定理}{55}{}%
+\contentsline {subparagraph}{例1}{55}{}%
+\contentsline {section}{\numberline {9.4}应用:机车启动问题}{56}{}%
+\contentsline {section}{\numberline {9.5}机械能守恒定律}{58}{}%
+\contentsline {subparagraph}{单个物体的机械能守恒}{58}{}%
+\contentsline {subparagraph}{系统的机械能守恒}{58}{}%
+\contentsline {subparagraph}{例1}{58}{}%
+\contentsline {section}{\numberline {9.6}能量的守恒与转化}{59}{}%
+\contentsline {subsection}{\numberline {9.6.1}功与能的关系}{59}{}%
+\contentsline {subsection}{\numberline {9.6.2}摩擦生热}{59}{}%
+\contentsline {subsection}{\numberline {9.6.3}能量守恒}{60}{}%
+\contentsline {subparagraph}{能量守恒定律}{60}{}%
+\contentsline {subparagraph}{例1}{60}{}%
+\contentsline {chapter}{\numberline {第十章\hspace {.3em}}动量守恒定律}{63}{}%
+\contentsline {section}{\numberline {10.1}动量}{63}{}%
+\contentsline {section}{\numberline {10.2}动量定理}{64}{}%
+\contentsline {subsection}{\numberline {10.2.1}冲量}{64}{}%
+\contentsline {subsection}{\numberline {10.2.2}动量定理}{64}{}%
+\contentsline {subsection}{\numberline {10.2.3}流体的冲力}{66}{}%
+\contentsline {subsection}{\numberline {10.2.4}变力的冲量}{66}{}%
+\contentsline {section}{\numberline {10.3}动量守恒定律}{66}{}%
+\contentsline {subparagraph}{动量守恒定律}{67}{}%
+\contentsline {section}{\numberline {10.4}反冲}{69}{}%
+\contentsline {section}{\numberline {10.5}碰撞}{71}{}%
+\contentsline {subparagraph}{完全非弹性碰撞}{71}{}%
+\contentsline {subparagraph}{完全弹性碰撞}{71}{}%
+\contentsline {subparagraph}{部分弹性碰撞}{72}{}%
+\contentsline {chapter}{\numberline {第十一章\hspace {.3em}}机械振动}{73}{}%
+\contentsline {section}{\numberline {11.1}简谐运动}{73}{}%
+\contentsline {subsection}{\numberline {11.1.1}简谐运动}{73}{}%
+\contentsline {subsection}{\numberline {11.1.2}振幅}{74}{}%
+\contentsline {subsection}{\numberline {11.1.3}周期\ \ \ 频率}{74}{}%
+\contentsline {subsection}{\numberline {11.1.4}相位}{75}{}%
+\contentsline {subsection}{\numberline {11.1.5}位移}{75}{}%
+\contentsline {subsection}{\numberline {11.1.6}速度}{76}{}%
+\contentsline {subsection}{\numberline {11.1.7}回复力\ \ \ 加速度}{76}{}%
+\contentsline {section}{\numberline {11.2}单摆}{77}{}%
+\contentsline {subsection}{\numberline {11.2.1}单摆的运动}{77}{}%
+\contentsline {subsection}{\numberline {11.2.2}单摆的周期}{78}{}%
+\contentsline {subsection}{\numberline {11.2.3}实验:用单摆测量重力加速度}{78}{}%
+\contentsline {section}{\numberline {11.3}外力作用下的振动}{79}{}%
+\contentsline {subsection}{\numberline {11.3.1}固有振动}{79}{}%
+\contentsline {subsection}{\numberline {11.3.2}阻尼振动}{79}{}%
+\contentsline {subsection}{\numberline {11.3.3}受迫振动}{79}{}%
+\contentsline {subsection}{\numberline {11.3.4}共振}{80}{}%
+\contentsline {chapter}{\numberline {第十二章\hspace {.3em}}机械波}{81}{}%
+\contentsline {section}{\numberline {12.1}波的产生和传播}{81}{}%
+\contentsline {subsection}{\numberline {12.1.1}波的形成}{81}{}%
+\contentsline {subsection}{\numberline {12.1.2}横波\ \ \ 纵波}{81}{}%
+\contentsline {subsection}{\numberline {12.1.3}机械波}{82}{}%
+\contentsline {section}{\numberline {12.2}波的描述}{82}{}%
+\contentsline {subsection}{\numberline {12.2.1}波长\ \ \ 频率 \ \ \ 波速}{82}{}%
+\contentsline {subsection}{\numberline {12.2.2}波的图像}{83}{}%
+\contentsline {section}{\numberline {12.3}波的性质}{85}{}%
+\contentsline {subsection}{\numberline {12.3.1}波的反射}{85}{}%
+\contentsline {subsection}{\numberline {12.3.2}波的折射}{85}{}%
+\contentsline {subsection}{\numberline {12.3.3}惠更斯原理}{86}{}%
+\contentsline {subparagraph}{惠更斯原理}{86}{}%
+\contentsline {subsection}{\numberline {12.3.4}波的衍射}{86}{}%
+\contentsline {subsection}{\numberline {12.3.5}波的干涉}{87}{}%
+\contentsline {subparagraph}{加强点}{87}{}%
+\contentsline {subparagraph}{减弱点}{88}{}%
+\contentsline {subparagraph}{加强区与减弱区}{88}{}%
+\contentsline {subparagraph}{波的干涉与干涉条件}{88}{}%
+\contentsline {subsection}{\numberline {12.3.6}多普勒效应}{88}{}%
+\contentsline {part}{第二部分\hspace {1em}电与磁}{91}{}%
+\contentsline {chapter}{\numberline {第十三章\hspace {.3em}}静电场}{93}{}%
+\contentsline {section}{\numberline {13.1}电荷}{93}{}%
+\contentsline {subsection}{\numberline {13.1.1}电荷}{93}{}%
+\contentsline {subsection}{\numberline {13.1.2}起电}{93}{}%
+\contentsline {subparagraph}{感应起电}{93}{}%
+\contentsline {subparagraph}{接触起电}{94}{}%
+\contentsline {subsection}{\numberline {13.1.3}电荷守恒定律}{94}{}%
+\contentsline {subsection}{\numberline {13.1.4}元电荷}{94}{}%
+\contentsline {section}{\numberline {13.2}静电力}{95}{}%
+\contentsline {subsection}{\numberline {13.2.1}库仑定律}{95}{}%
+\contentsline {subparagraph}{点电荷}{95}{}%
+\contentsline {subsection}{\numberline {13.2.2}静电力的平衡问题}{96}{}%
+\contentsline {section}{\numberline {13.3}电场}{96}{}%
+\contentsline {subsection}{\numberline {13.3.1}电场}{96}{}%
+\contentsline {subsection}{\numberline {13.3.2}电场强度}{97}{}%
+\contentsline {subsubsection}{点电荷的电场强度}{98}{}%
+\contentsline {subsubsection}{电场强度的叠加}{98}{}%
+\contentsline {subsubsection}{电场线}{99}{}%
+\contentsline {subsubsection}{匀强电场}{99}{}%
+\contentsline {subsection}{\numberline {13.3.3}两个等量点电荷形成的电场}{99}{}%
+\contentsline {subsubsection}{等量同种点电荷}{99}{}%
+\contentsline {subsubsection}{等量异种点电荷}{100}{}%
+\contentsline {section}{\numberline {13.4}静电场中的能量}{100}{}%
+\contentsline {subsection}{\numberline {13.4.1}电势能}{100}{}%
+\contentsline {subsubsection}{静电力做功的特点}{100}{}%
+\contentsline {subsubsection}{电势能的概念}{100}{}%
+\contentsline {subsubsection}{电势能的相对性}{101}{}%
+\contentsline {subsubsection}{电势能的决定式}{101}{}%
+\contentsline {subsection}{\numberline {13.4.2}电势}{101}{}%
+\contentsline {subsubsection}{电势叠加原理}{102}{}%
+\contentsline {subsection}{\numberline {13.4.3}电势差}{102}{}%
+\contentsline {subsubsection}{静电力做功与电势差的关系}{103}{}%
+\contentsline {section}{\numberline {13.5}电场的图形描述}{104}{}%
+\contentsline {subsection}{\numberline {13.5.1}电场线}{104}{}%
+\contentsline {subsubsection}{电场线与电荷运动的轨迹}{105}{}%
+\contentsline {subsection}{\numberline {13.5.2}等势面}{105}{}%
+\contentsline {section}{\numberline {13.6}电势差与电场强度的关系}{105}{}%
+\contentsline {section}{\numberline {13.7}静电的防止与利用}{107}{}%
+\contentsline {subsection}{\numberline {13.7.1}静电平衡}{107}{}%
+\contentsline {subsection}{\numberline {13.7.2}电荷的分布特点}{107}{}%
+\contentsline {subsection}{\numberline {13.7.3}静电屏蔽}{107}{}%
+\contentsline {section}{\numberline {13.8}电容}{108}{}%
+\contentsline {subsection}{\numberline {13.8.1}电容器}{108}{}%
+\contentsline {subsection}{\numberline {13.8.2}电容}{108}{}%
+\contentsline {subsection}{\numberline {13.8.3}平行板电容器}{109}{}%
+\contentsline {subsubsection}{平行板电容器的电场强度}{110}{}%
+\contentsline {subsubsection}{平行板电容器的充放电机制}{111}{}%
+\contentsline {subsection}{\numberline {13.8.4}电容器的动态分析}{111}{}%
+\contentsline {section}{\numberline {13.9}带电粒子在匀强电场中的运动}{112}{}%
+\contentsline {subsection}{\numberline {13.9.1}匀强电场中的直线运动}{113}{}%
+\contentsline {subsection}{\numberline {13.9.2}匀强电场中的类平抛运动}{113}{}%
+\contentsline {subparagraph}{偏转角规律}{114}{}%
+\contentsline {subsection}{\numberline {13.9.3}匀强电场中的加速与偏转}{114}{}%
+\contentsline {chapter}{\numberline {第十四章\hspace {.3em}}电路}{117}{}%
+\contentsline {section}{\numberline {14.1}电流}{117}{}%
+\contentsline {subsection}{\numberline {14.1.1}电流}{117}{}%
+\contentsline {subsection}{\numberline {14.1.2}电流的微观本质}{118}{}%
+\contentsline {subsection}{\numberline {14.1.3}电解质溶液中的电流}{118}{}%
+\contentsline {subsection}{\numberline {14.1.4}机械运动的等效电流}{118}{}%
+\contentsline {section}{\numberline {14.2}电阻}{119}{}%
+\contentsline {subsection}{\numberline {14.2.1}电阻}{119}{}%
+\contentsline {subsection}{\numberline {14.2.2}影响电阻的因素}{120}{}%
+\contentsline {section}{\numberline {14.3}电路}{120}{}%
+\contentsline {subsection}{\numberline {14.3.1}串联电路与并联电路}{120}{}%
+\contentsline {subsection}{\numberline {14.3.2}电压表和电流表}{120}{}%
+\contentsline {subsubsection}{电压表的改装}{121}{}%
+\contentsline {subsubsection}{电流表的改装}{121}{}%
+\contentsline {subsection}{\numberline {14.3.3}等效电路}{122}{}%
+\contentsline {subsection}{\numberline {14.3.4}动态电路问题}{123}{}%
+\contentsline {subsection}{\numberline {14.3.5}含电容器的电路}{123}{}%
+\contentsline {section}{\numberline {14.4}电源}{124}{}%
+\contentsline {subsection}{\numberline {14.4.1}电源}{124}{}%
+\contentsline {subsection}{\numberline {14.4.2}电动势}{125}{}%
+\contentsline {subsection}{\numberline {14.4.3}内阻}{125}{}%
+\contentsline {subsection}{\numberline {14.4.4}电池容量}{125}{}%
+\contentsline {section}{\numberline {14.5}电路中的能量转化}{126}{}%
+\contentsline {subsection}{\numberline {14.5.1}电功}{126}{}%
+\contentsline {subsection}{\numberline {14.5.2}电功率}{126}{}%
+\contentsline {subsection}{\numberline {14.5.3}焦耳定律}{126}{}%
+\contentsline {section}{\numberline {14.6}闭合电路欧姆定律}{127}{}%
+\contentsline {subsection}{\numberline {14.6.1}闭合电路欧姆定律}{127}{}%
+\contentsline {subsection}{\numberline {14.6.2}路端电压和负载的关系}{128}{}%
+\contentsline {section}{\numberline {14.7}电源的功率与效率}{128}{}%
+\contentsline {subsection}{\numberline {14.7.1}功率与电流的关系}{129}{}%
+\contentsline {subsection}{\numberline {14.7.2}电源的效率}{130}{}%
+\contentsline {section}{\numberline {14.8}实验:伏安法测电阻}{131}{}%
+\contentsline {subsection}{\numberline {14.8.1}电流表的内接法与外接法}{131}{}%
+\contentsline {subsection}{\numberline {14.8.2}滑动变阻器的限流接法和分压接法}{132}{}%
+\contentsline {section}{\numberline {14.9}实验: 测量电源的电动势及内阻}{133}{}%
+\contentsline {subsection}{\numberline {14.9.1}实验思路}{133}{}%
+\contentsline {subsection}{\numberline {14.9.2}数据处理}{133}{}%
+\contentsline {subsection}{\numberline {14.9.3}电路连接及误差分析}{134}{}%
+\contentsline {chapter}{\numberline {第十五章\hspace {.3em}}磁场}{137}{}%
+\contentsline {section}{\numberline {15.1}磁场}{137}{}%
+\contentsline {subsection}{\numberline {15.1.1}磁场}{137}{}%
+\contentsline {subsection}{\numberline {15.1.2}磁感线}{137}{}%
+\contentsline {subsection}{\numberline {15.1.3}磁感应强度}{138}{}%
+\contentsline {subsection}{\numberline {15.1.4}匀强磁场}{138}{}%
+\contentsline {subsection}{\numberline {15.1.5}安培定则}{139}{}%
+\contentsline {subparagraph}{安培定则}{139}{}%
+\contentsline {subsection}{\numberline {15.1.6}地磁场}{139}{}%
+\contentsline {section}{\numberline {15.2}磁通量}{139}{}%
+\contentsline {subsection}{\numberline {15.2.1}安培的分子电流假说}{141}{}%
+\contentsline {section}{\numberline {15.3}磁场对通电导线的作用力}{141}{}%
+\contentsline {subsection}{\numberline {15.3.1}安培力的方向}{141}{}%
+\contentsline {subparagraph}{安培力的左手定则}{141}{}%
+\contentsline {subsection}{\numberline {15.3.2}安培力的大小}{142}{}%
+\contentsline {section}{\numberline {15.4}磁场对运动电荷的作用力}{142}{}%
+\contentsline {subsection}{\numberline {15.4.1}洛伦兹力的方向}{142}{}%
+\contentsline {subparagraph}{洛伦兹力的左手定则}{142}{}%
+\contentsline {subsection}{\numberline {15.4.2}洛伦兹力的大小}{142}{}%
+\contentsline {section}{\numberline {15.5}带电粒子在磁场中的运动}{143}{}%
+\contentsline {subsection}{\numberline {15.5.1}带电粒子在匀强磁场中的匀速圆周运动}{143}{}%
+\contentsline {subsection}{\numberline {15.5.2}带电粒子在有界磁场中的运动}{144}{}%
+\contentsline {subparagraph}{圆心和半径}{144}{}%
+\contentsline {subparagraph}{运动时间}{144}{}%
+\contentsline {subsection}{\numberline {15.5.3}带电粒子在复合场中的运动}{145}{}%
+\contentsline {subparagraph}{重力}{145}{}%
+\contentsline {subparagraph}{静电力}{145}{}%
+\contentsline {subparagraph}{洛伦兹力}{145}{}%
+\contentsline {subparagraph}{直线运动}{145}{}%
+\contentsline {subparagraph}{匀速圆周运动}{145}{}%
+\contentsline {subparagraph}{曲线运动}{146}{}%
+\contentsline {section}{\numberline {15.6}电磁科技}{147}{}%
+\contentsline {subsection}{\numberline {15.6.1}速度选择器}{147}{}%
+\contentsline {subsection}{\numberline {15.6.2}质谱仪}{147}{}%
+\contentsline {subsection}{\numberline {15.6.3}回旋加速器}{148}{}%
+\contentsline {subsection}{\numberline {15.6.4}电磁流量计}{149}{}%
+\contentsline {chapter}{\numberline {第十六章\hspace {.3em}}电磁感应}{151}{}%
+\contentsline {section}{\numberline {16.1}电磁感应现象}{151}{}%
+\contentsline {section}{\numberline {16.2}电磁波}{151}{}%
+\contentsline {subsection}{\numberline {16.2.1}电磁场}{151}{}%
+\contentsline {subsection}{\numberline {16.2.2}电磁波谱}{152}{}%
+\contentsline {section}{\numberline {16.3}楞次定律}{153}{}%
+\contentsline {section}{\numberline {16.4}法拉第电磁感应定律}{154}{}%
+\contentsline {subsection}{\numberline {16.4.1}法拉第电磁感应定律}{154}{}%
+\contentsline {subsection}{\numberline {16.4.2}变化的磁场产生的感应电动势}{154}{}%
+\contentsline {subsection}{\numberline {16.4.3}导线切割磁感线时的感应电动势}{155}{}%
+\contentsline {section}{\numberline {16.5}电磁感应的应用}{156}{}%
+\contentsline {subsection}{\numberline {16.5.1}涡流}{156}{}%
+\contentsline {subsection}{\numberline {16.5.2}电磁阻尼\ \ \ 电磁驱动}{157}{}%
+\contentsline {section}{\numberline {16.6}互感\ \ \ 自感}{157}{}%
+\contentsline {section}{\numberline {16.7}通电导线在磁场中的运动}{158}{}%
+\contentsline {subsection}{\numberline {16.7.1}通电导线在磁场中的受力}{158}{}%
+\contentsline {subsection}{\numberline {16.7.2}电磁感应中的能量问题}{159}{}%
+\contentsline {subsection}{\numberline {16.7.3}电磁感应与电荷量}{161}{}%
+\contentsline {chapter}{\numberline {第十七章\hspace {.3em}}交变电流}{165}{}%
+\contentsline {section}{\numberline {17.1}正弦式交变电流}{165}{}%
+\contentsline {section}{\numberline {17.2}交变电流的描述}{168}{}%
+\contentsline {subsection}{\numberline {17.2.1}频率\ \ \ 周期}{168}{}%
+\contentsline {subsection}{\numberline {17.2.2}峰值\ \ \ 有效值}{168}{}%
+\contentsline {subsection}{\numberline {17.2.3}平均值}{169}{}%
+\contentsline {section}{\numberline {17.3}电感器和电容器对交流的阻碍}{169}{}%
+\contentsline {subparagraph}{电阻阻碍直流和交流}{169}{}%
+\contentsline {subparagraph}{电感器阻碍交流}{169}{}%
+\contentsline {subparagraph}{交流可以通过电容器}{170}{}%
+\contentsline {subparagraph}{电容器阻碍交流}{170}{}%
+\contentsline {section}{\numberline {17.4}变压器}{170}{}%
+\contentsline {subsection}{\numberline {17.4.1}理想变压器的变压规律}{171}{}%
+\contentsline {subsection}{\numberline {17.4.2}有多个副线圈时的变压规律}{172}{}%
+\contentsline {subsection}{\numberline {17.4.3}自耦变压器}{172}{}%
+\contentsline {section}{\numberline {17.5}电能的输送}{172}{}%
+\contentsline {part}{第三部分\hspace {1em}光与热}{175}{}%
+\contentsline {chapter}{\numberline {第十八章\hspace {.3em}}光}{177}{}%
+\contentsline {section}{\numberline {18.1}光的折射}{177}{}%
+\contentsline {subsection}{\numberline {18.1.1}折射定律}{177}{}%
+\contentsline {subsection}{\numberline {18.1.2}折射率}{178}{}%
+\contentsline {section}{\numberline {18.2}光的全反射}{178}{}%
+\contentsline {section}{\numberline {18.3}光的色散与光的电磁理论}{179}{}%
+\contentsline {section}{\numberline {18.4}光的干涉}{180}{}%
+\contentsline {subsection}{\numberline {18.4.1}光的双缝干涉}{180}{}%
+\contentsline {subsection}{\numberline {18.4.2}光的薄膜干涉}{181}{}%
+\contentsline {section}{\numberline {18.5}光的衍射}{182}{}%
+\contentsline {section}{\numberline {18.6}光的偏振}{183}{}%
+\contentsline {subsection}{\numberline {18.6.1}波的偏振}{183}{}%
+\contentsline {subsection}{\numberline {18.6.2}光的偏振}{183}{}%
+\contentsline {subsection}{\numberline {18.6.3}激光}{184}{}%

@@ -1,0 +1,66 @@
+\contentsline {section}{\numberline {1}动量守恒定律}{1}{}%
+\contentsline {subsection}{\numberline {1.1}动量}{1}{}%
+\contentsline {subsection}{\numberline {1.2}动量定理}{2}{}%
+\contentsline {subsubsection}{\numberline {1.2.1}冲量}{2}{}%
+\contentsline {subsubsection}{\numberline {1.2.2}动量定理}{2}{}%
+\contentsline {subsubsection}{\numberline {1.2.3}流体的冲力}{4}{}%
+\contentsline {subsubsection}{\numberline {1.2.4}变力的冲量}{4}{}%
+\contentsline {subsection}{\numberline {1.3}动量守恒定律}{4}{}%
+\contentsline {subparagraph}{动量守恒定律}{5}{}%
+\contentsline {subsection}{\numberline {1.4}反冲}{7}{}%
+\contentsline {subsection}{\numberline {1.5}碰撞}{8}{}%
+\contentsline {subsubsection}{\numberline {1.5.1}碰撞的类型}{9}{}%
+\contentsline {subparagraph}{完全非弹性碰撞}{9}{}%
+\contentsline {subparagraph}{完全弹性碰撞}{9}{}%
+\contentsline {section}{\numberline {2}简谐运动}{9}{}%
+\contentsline {subsection}{\numberline {2.1}机械振动}{9}{}%
+\contentsline {subsubsection}{\numberline {2.1.1}简谐运动}{10}{}%
+\contentsline {subsubsection}{\numberline {2.1.2}振幅}{10}{}%
+\contentsline {subsubsection}{\numberline {2.1.3}周期\ \ \ 频率}{10}{}%
+\contentsline {subsubsection}{\numberline {2.1.4}相位}{11}{}%
+\contentsline {subsubsection}{\numberline {2.1.5}位移}{12}{}%
+\contentsline {subsubsection}{\numberline {2.1.6}速度}{12}{}%
+\contentsline {subsubsection}{\numberline {2.1.7}回复力\ \ \ 加速度}{12}{}%
+\contentsline {subsection}{\numberline {2.2}单摆}{13}{}%
+\contentsline {subsubsection}{\numberline {2.2.1}单摆的运动}{13}{}%
+\contentsline {subsubsection}{\numberline {2.2.2}单摆的周期}{14}{}%
+\contentsline {subsubsection}{\numberline {2.2.3}实验:用单摆测量重力加速度}{14}{}%
+\contentsline {subsection}{\numberline {2.3}外力作用下的振动}{15}{}%
+\contentsline {subsubsection}{\numberline {2.3.1}固有振动}{15}{}%
+\contentsline {subsubsection}{\numberline {2.3.2}阻尼振动}{15}{}%
+\contentsline {subsubsection}{\numberline {2.3.3}受迫振动}{16}{}%
+\contentsline {subsubsection}{\numberline {2.3.4}共振}{16}{}%
+\contentsline {section}{\numberline {3}机械波}{16}{}%
+\contentsline {subsection}{\numberline {3.1}波的产生和传播}{16}{}%
+\contentsline {subsubsection}{\numberline {3.1.1}波的形成}{16}{}%
+\contentsline {subsubsection}{\numberline {3.1.2}横波\ \ \ 纵波}{17}{}%
+\contentsline {subsubsection}{\numberline {3.1.3}机械波}{17}{}%
+\contentsline {subsection}{\numberline {3.2}波的描述}{18}{}%
+\contentsline {subsubsection}{\numberline {3.2.1}波长\ \ \ 频率 \ \ \ 波速}{18}{}%
+\contentsline {subsubsection}{\numberline {3.2.2}波的图像}{18}{}%
+\contentsline {subsection}{\numberline {3.3}波的性质}{20}{}%
+\contentsline {subsubsection}{\numberline {3.3.1}波的反射}{20}{}%
+\contentsline {subsubsection}{\numberline {3.3.2}波的折射}{20}{}%
+\contentsline {subsubsection}{\numberline {3.3.3}惠更斯原理}{21}{}%
+\contentsline {subparagraph}{惠更斯原理}{21}{}%
+\contentsline {subsubsection}{\numberline {3.3.4}波的衍射}{21}{}%
+\contentsline {subsubsection}{\numberline {3.3.5}波的干涉}{22}{}%
+\contentsline {subparagraph}{加强点}{23}{}%
+\contentsline {subparagraph}{减弱点}{23}{}%
+\contentsline {subparagraph}{加强区与减弱区}{23}{}%
+\contentsline {subparagraph}{波的干涉与干涉条件}{23}{}%
+\contentsline {subsubsection}{\numberline {3.3.6}多普勒效应}{23}{}%
+\contentsline {section}{\numberline {4}光}{24}{}%
+\contentsline {subsection}{\numberline {4.1}光的折射}{24}{}%
+\contentsline {subsubsection}{\numberline {4.1.1}折射定律}{24}{}%
+\contentsline {subsubsection}{\numberline {4.1.2}折射率}{25}{}%
+\contentsline {subsection}{\numberline {4.2}光的全反射}{26}{}%
+\contentsline {subsection}{\numberline {4.3}光的色散与光的电磁理论}{27}{}%
+\contentsline {subsection}{\numberline {4.4}光的干涉}{27}{}%
+\contentsline {subsubsection}{\numberline {4.4.1}光的双缝干涉}{27}{}%
+\contentsline {subsubsection}{\numberline {4.4.2}光的薄膜干涉}{28}{}%
+\contentsline {subsection}{\numberline {4.5}光的衍射}{29}{}%
+\contentsline {subsection}{\numberline {4.6}光的偏振}{30}{}%
+\contentsline {subsubsection}{\numberline {4.6.1}波的偏振}{30}{}%
+\contentsline {subsubsection}{\numberline {4.6.2}光的偏振}{30}{}%
+\contentsline {subsubsection}{\numberline {4.6.3}激光}{31}{}%

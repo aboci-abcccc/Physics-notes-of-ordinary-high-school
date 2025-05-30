@@ -1,0 +1,124 @@
+\documentclass[12pt,a4paper]{ctexart}
+
+\title{导数例题}
+\author{啊波呲}
+
+\setlength{\parskip}{0em}
+\usepackage{amsmath,mathtools,amssymb,geometry,wrapfig,graphicx,empheq,pifont,enumitem,upgreek}
+\renewcommand{\baselinestretch}{1.77}
+\geometry{left=1.5cm,right=1.5cm,bottom=2.1cm,top=2.5cm}
+\setenumerate[1]{itemsep=1pt,partopsep=0pt,parsep=\parskip,topsep=3pt}
+\setitemize[1]{itemsep=1pt,partopsep=0pt,parsep=\parskip,topsep=3pt}
+
+\usepackage{tikz}
+\usepackage{xcolor}
+\newcounter{exam}[section]
+\setcounter{exam}{0}
+\newcommand{\bre}{\ \ \ }
+\newcommand{\examlabel}{\textbf{例\theexam}}
+\newcommand{\soln}{\textbf{解}\bre}
+\newcommand{\prf}{\textbf{证明}\bre}
+\newcommand{\notes}{\textbf{注意}\bre}
+\newcommand{\unit}[1]{\ \mathrm{#1}}
+\renewcommand{\ne}{\mathrm{e}}
+
+\newenvironment{example}{\bigskip\par\refstepcounter{exam}\examlabel\bre}{\par}
+\newenvironment{solution}{\par\soln}{\par\bigskip}
+\newenvironment{proof}{\par\prf}{\par\bigskip}
+
+\begin{document}
+\maketitle
+\pagenumbering{roman}
+\tableofcontents
+
+\newpage
+\pagenumbering{arabic}
+\setlength{\abovedisplayskip}{0pt}
+\setlength{\belowdisplayskip}{0pt}
+\section{隐零点问题}
+\begin{example}
+    若存在$k\in\mathbb{Z}$, 使得不等式$$x(\ln x+1)>k(x-2)$$在$x\in (2, +\infty)$恒成立, 求$k$的最大值.
+    \vspace{10pt}
+\end{example}
+\begin{solution}
+    \setlength{\abovedisplayskip}{8pt}
+    \setlength{\belowdisplayskip}{8pt}
+题设等价于$k<\displaystyle\frac{x(\ln x+1)}{x-2}$对于任意的$x\in (2, +\infty)$恒成立,所以
+$$k<\left[\displaystyle\frac{x(\ln x+1)}{x-2}\right]_\text{min}.$$
+
+令$g(x)=\displaystyle\frac{x(\ln x+1)}{x-2},x\in(2, +\infty)$,则
+$$g^{\prime}(x) = \frac{x-2\ln x-4}{(x-2)^2}.$$
+
+令$\varphi(x) = x- 2\ln x-4, x\in(2, +\infty)$, 则恒有
+$$\varphi^{\prime}(x) = 1-\frac{2}{x}>0.$$
+所以$\varphi(x)$在$(2, +\infty)$递增. 
+
+注意到$\varphi(8)<0$, $\varphi(10)>0$, 根据零点定理, 
+存在唯一的$x_0\in(8,10)$, 使得$\varphi(x) = 0$, 即
+\begin{equation}
+    \setlength{\abovedisplayskip}{0pt}
+    \setlength{\belowdisplayskip}{0pt}
+    x_0-2\ln x_0-4 = 0.
+    \label{1}
+\end{equation}
+
+于是, 当$2<x<x_0$时, $g^{\prime}(x)<0$, $g(x)$递减; 当$x>x_0$时, $g^{\prime}(x)>0$, $g(x)$递增.
+所以$$g(x)\leqslant g(x_0) = \frac{x_0(\ln x_0+1)}{x_0-2}.$$代入 \eqref{1} 式可得
+$$g(x)\leqslant \frac{x_0\left(\displaystyle\frac{x_0}{2}-1\right)}{x_0-2} = \frac{x_0}{2}.$$
+由此可知$k<\displaystyle\frac{x_0}{2}$.由$x\in(8,10)$得$\displaystyle\frac{x_0}{2}\in(4,5)$.
+因此,使$k<\displaystyle\frac{x_0}{2}$恒成立的最大整数$k$是4.\vspace{5pt}
+
+即所求$k$的最大值为4.
+\end{solution}
+\newpage
+\setlength{\abovedisplayskip}{6pt}
+    \setlength{\belowdisplayskip}{6pt}
+\begin{example}
+    已知函数$f(x) = \displaystyle\frac{\ln ax}{x}-\mathrm{e}\ln x,$ 其中$a>\ne$.
+
+    (1)证明: $f(x)$存在唯一极值点;
+    
+    (2)证明: $f(x)<\ne(a-1)$.
+\end{example}
+\begin{proof}
+(1)函数$f(x)$的定义域为$(0,+\infty)$. 对其求导:
+$$f^{\prime}(x) = \frac{1-\ln ax-\ne x}{x^2}.$$
+
+令$\varphi(x) = 1-\ln ax-\ne x$, 容易看出$\varphi(x)$单调递减.注意到
+\begin{equation*}
+    \setlength{\abovedisplayskip}{10pt}
+    \setlength{\belowdisplayskip}{10pt}
+\varphi\left(\frac{1}{a}\right) = 1-\frac{\ne}{a}>0,\bre\bre \varphi\left(\frac{1}{\ne}\right) =  1-\ln a<0.
+\end{equation*}
+又由$a>\ne$知$\displaystyle\frac{1}{a}<\displaystyle\frac{1}{\ne}$.
+因此$\varphi(x)$在$\left(\displaystyle\frac{1}{a},\displaystyle\frac{1}{e}\right)$上存在唯一零点$x_0$.\vspace{7pt}
+
+于是, 当$0<x<x_0$时, $\varphi(x)>0$, 即$f^{\prime}(x)>0$, $f(x)$递增; 
+当$x>x_0$时, $\varphi(x)<0$, 即$f^{\prime}(x)<0$, $f(x)$递减.
+$x = x_0$是$f(x)$的唯一极值点.
+
+\setlength{\abovedisplayskip}{7pt}
+\setlength{\belowdisplayskip}{7pt}
+(2)由(1)可得$1 - \ln ax_0-\ne x_0 = 0$, 即$\ln ax_0 =1-\ne x_0$.从而
+$$f(x_0) = \frac{1}{x_0}-\ne \ln x_0-\ne, \ x_0\in \left(\frac{1}{a},\frac{1}{e}\right).$$
+因为$f(x_0)$是$f(x)$的唯一极大值, 所以
+$$f(x)\leqslant f(x_0) = \frac{1}{x_0}-\ne \ln x_0-\ne.$$
+
+令$g(x) = \displaystyle\frac{1}{x}-\ne \ln x-\ne, x\in\left(\displaystyle\frac{1}{a},\displaystyle\frac{1}{e}\right)$.
+易知$g(x)$是减函数, 所以$$g(x)<g\left(\frac{1}{a}\right) = a+\ne\ln a-\ne.$$即
+$f(x) < a+\ne\ln a-\ne.$因此, 要证$f(x)<\ne(a-1)$, 只需证明$a+\ne\ln a-\ne>\ne(a-1)$, 即证
+\begin{equation}
+    \ne\ln a-\ne a+a<0.
+    \setlength{\abovedisplayskip}{0pt}
+    \setlength{\belowdisplayskip}{0pt}
+    \label{2}
+\end{equation}
+
+令$h(a) = \ne \ln a-\ne a+a, \ a\in (e,+\infty).$ 由
+$$h^{\prime}(a) = \frac{\ne}{a}-\ne+1<1-e+1<0$$
+知$h(a)$单调递减. 于是$$h(a)<h(e) = 2\ne - \ne^2<0.$$
+这就证明了不等式 \eqref{2}. 以上过程均可逆, 于是原不等式得证.
+
+\end{proof}
+
+\end{document}
