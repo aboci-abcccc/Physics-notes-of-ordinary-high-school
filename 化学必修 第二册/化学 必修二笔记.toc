@@ -43,3 +43,4 @@
 \contentsline {subsubsection}{1. 硫元素的四种价态}{13}{}%
 \contentsline {subsubsection}{2. 硫元素不同价态间的转化}{13}{}%
 \contentsline {subsubsection}{3. 硫代硫酸钠}{14}{}%
+\contentsline {section}{\numberline {5.2}有机}{14}{}%

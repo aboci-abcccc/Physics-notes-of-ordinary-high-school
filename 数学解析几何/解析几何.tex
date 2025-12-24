@@ -1,0 +1,135 @@
+\documentclass[12pt,a4paper]{ctexart}
+
+\title{数学}
+\author{啊波呲}
+
+\setlength{\parskip}{0em}
+\usepackage{amsmath,mathtools,amssymb,geometry,wrapfig,graphicx,empheq,pifont,enumitem,upgreek}
+\renewcommand{\baselinestretch}{1.77}
+\geometry{left=1.5cm,right=1.5cm,bottom=2.1cm,top=2.5cm}
+\setenumerate[1]{itemsep=1pt,partopsep=0pt,parsep=\parskip,topsep=3pt}
+\setitemize[1]{itemsep=1pt,partopsep=0pt,parsep=\parskip,topsep=3pt}
+
+\usepackage{tikz}
+\usepackage{xcolor}
+\newcounter{exam}[section]
+\setcounter{exam}{0}
+\newcommand{\bre}{\ \ \ }
+\newcommand{\examlabel}{\textbf{例\theexam}}
+\newcommand{\soln}{\textbf{解}\bre}
+\newcommand{\notes}{\textbf{注意}\bre}
+\newcommand{\define}{\textbf{定义}\bre}
+\newcommand{\throem}{\textbf{定理}\bre}
+\newcommand{\proof}{\textbf{证明}\bre}
+\newcommand{\proposition}{\textbf{命题}\bre}
+\newcommand{\unit}[1]{\ \mathrm{#1}}
+
+\newenvironment{example}{\bigskip\par\refstepcounter{exam}\examlabel\bre}{\par}
+\newenvironment{solution}{\par\soln}{\par\bigskip}
+
+\begin{document}
+\maketitle
+\pagenumbering{roman}
+
+\newpage
+\pagenumbering{arabic}
+
+\setlength{\abovedisplayskip}{3pt}
+\setlength{\belowdisplayskip}{3pt}
+
+\section*{双曲线的常用结论}
+
+\subsection*{1. 焦点三角形}
+
+\define 双曲线上的一点以及它的两个焦点构成的三角形, 叫做这个双曲线的\textbf{焦点三角形}.
+
+我们以焦点在$x$轴的双曲线为例进行研究. 设双曲线的方程为 $\dfrac{x^2}{a^2}-\dfrac{y^2}{b^2}=1$ ($a>0,b>0$), 
+焦点为 $F_1(-c,0),F_2(c,0)$. \bigskip
+
+\proposition 焦点三角形的内切圆圆心横坐标为$a$或$-a$.
+
+求证: 设$P(x_0,y_0)$是双曲线上的一点, 三角形$PF_1F_2$的内切圆圆心为$I$, 
+分别切$PF_1$,$PF_2$, $F_1F_2$于$A,B,C$, 则点$I$的横坐标为$a$或$-a$.
+
+\proof 我们来证明点$P$在双曲线的右支时, 内切圆圆心$I$的横坐标为$a$.
+
+根据双曲线的定义, 有$|PF_1| - |PF_2| = 2a$,即$$(|PA|+|AF_1|) - (|PB|+|BF_2|) = 2a.$$
+
+根据圆的切线长定理, 有$$|PA|=|PB|, \ |AF_1| = |CF_1|, \ |BF_2| = |CF_2|,$$
+代入上式, 就得到$$|CF_1| - |CF_2| = 2a.$$
+
+设点$C$的坐标为$(x_1, 0)$, 即$$x_1-(-c)-(c-x_1) = 2a.$$
+解得$x_1 = a$. 因为$CI\perp F_1F_2$, 所以点$I$的横坐标也为$a$.
+
+\bigskip
+
+\proposition 设$P(x_0,y_0)$是双曲线$C$上的一点, 记$\theta = \angle F_1PF_2$, 则 $\triangle F_1PF_2$ 的面积为
+$$S = \frac{b^2}{\tan \dfrac{\theta}{2}}$$
+
+\proof 由余弦定理, 有
+\begin{align*}
+\cos\theta &= \frac{|PF_1|^2+|PF_2|^2-|F_1F_2|^2}{2|PF_1||PF_2|}.\\
+&= \frac{(|PF_1|-|PF_2|)^2+2|PF_1||PF_2|-|F_1F_2|^2}{2|PF_1||PF_2|}\\
+&= \frac{(2a)^2+2|PF_1||PF_2|-(2c)^2}{2|PF_1||PF_2|} = 1 - \frac{2b^2}{|PF_1||PF_2|}.
+\end{align*}
+
+所以\bre\bre\bre\bre\bre\bre\bre\bre\bre\bre\bre\bre$|PF_1||PF_2| = \dfrac{2b^2}{1-\cos\theta}.$\vspace{15pt}
+
+于是\bre \bre\bre\bre\bre\bre\bre\bre$S = \dfrac{1}{2}|PF_1||PF_2|\sin\theta = b^2\dfrac{\sin\theta}{1-\cos\theta}=\dfrac{b^2}{\tan \dfrac{\theta}{2}}.$
+
+\subsection*{2. 双曲线的渐近线}
+\throem (双曲线的渐近线方程)\vspace{10pt}
+
+(1) 若双曲线的方程为 $\dfrac{x^2}{a^2}-\dfrac{y^2}{b^2}=1(a>0,b>0)$, 则它的两条渐近线方程为 $\dfrac{x^2}{a^2}-\dfrac{y^2}{b^2}=0$, 即 $$y=\pm\dfrac{b}{a}x;$$
+
+(2) 若双曲线的方程为 $\dfrac{y^2}{b^2}-\dfrac{x^2}{a^2}=1(a>0,b>0)$, 则它的两条渐近线方程为 $\dfrac{y^2}{a^2}-\dfrac{x^2}{b^2}=0$, 即 $$y=\pm\dfrac{a}{b}x.$$
+
+\proof 略.
+
+\bigskip
+下面讨论焦点在$x$轴上的双曲线$\dfrac{x^2}{a^2}-\dfrac{y^2}{b^2}=1(a>0,b>0)$.
+
+\proposition 双曲线的焦点到渐近线的距离为常数$b$.
+
+\proof 考察双曲线的右焦点$F_2(c,0)$到渐近线$y=\dfrac{b}{a}x$的距离, 有
+$$d = \frac{\left|\dfrac{b}{a}c-0\right|}{\sqrt{\left(\dfrac{b}{a}\right)^2+1}} = \frac{\dfrac{b}{a}c}{\dfrac{\sqrt{a^2+b^2}}{a}} = b.$$
+
+\bigskip
+
+\proposition 过双曲线的焦点向渐近线作垂线, 垂足的坐标为$\left(\pm\dfrac{a^2}{c}, \pm\dfrac{ab}{c}\right)$.
+
+\proof 考察双曲线的右焦点$F_2(c,0)$到渐近线$y=\dfrac{b}{a}x$的垂线. 
+
+垂线的斜率为$-\dfrac{a}{b}$, 故垂线方程为 $$y=-\dfrac{a}{b}(x-c).$$ 
+
+由方程组$\begin{dcases}
+y=\dfrac{b}{a}x,\\
+y=-\dfrac{a}{b}(x-c)
+\end{dcases}$
+消去$y$, 得$\dfrac{b}{a}x=-\dfrac{a}{b}(x-c)$.整理得$$b^2x+a^2x = a^2c.$$解得$$x=\dfrac{a^2c}{a^2+b^2}=\dfrac{a^2}{c}.$$
+
+将$x=\dfrac{a^2}{c}$代入$y=\dfrac{b}{a}x$, 得$$y=\dfrac{b}{a}\cdot \dfrac{a^2}{c}=\dfrac{ab}{c}.$$
+
+因此, 垂足的坐标为$$\left(\dfrac{a^2}{c}, \dfrac{ab}{c}\right).$$
+\bigskip
+
+\proposition 双曲线上的点到两条渐近线的距离之积为常数$\dfrac{a^2b^2}{c^2}$.\vspace{10pt}
+
+\proof 双曲线的两条渐近线分别为$l_{1,2}:\dfrac{x}{a}\pm\dfrac{y}{b}=0$, 即
+$$l_1:bx+ay=0,$$
+$$l_2:bx-ay=0.$$
+
+设$P(x_0,y_0)$是双曲线上的一点, 则$$\dfrac{x_0^2}{a^2}-\dfrac{y_0^2}{b^2}=1\Rightarrow b^2 x_0^2 - a^2 y_0^2 = a^2 b^2.$$
+
+设$P$到两条渐近线$l_1$和$l_2$的距离分别为$d_1$和$d_2$, 则
+$$d_1 = \frac{|b x_0 - a y_0|}{\sqrt{a^2 + b^2}}, \bre\bre d_2 = \frac{|b x_0 + a y_0|}{\sqrt{a^2 + b^2}}$$
+于是有
+\begin{align*}
+    d_1d_2 &= \frac{|b x_0 - a y_0|}{\sqrt{a^2 + b^2}} \cdot \frac{|b x_0 + a y_0|}{\sqrt{a^2 + b^2}}\\
+&= \frac{|(b x_0 - a y_0)(b x_0 + a y_0)|}{a^2 + b^2}\\
+&= \frac{|b^2 x_0^2 - a^2 y_0^2|}{a^2 + b^2} = \frac{a^2b^2}{c^2}.
+\end{align*}
+
+\subsection*{3. 点差法}
+
+\end{document}

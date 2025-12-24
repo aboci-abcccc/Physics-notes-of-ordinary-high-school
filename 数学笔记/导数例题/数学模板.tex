@@ -43,8 +43,7 @@
 \begin{solution}
     \setlength{\abovedisplayskip}{8pt}
     \setlength{\belowdisplayskip}{8pt}
-题设等价于$k<\displaystyle\frac{x(\ln x+1)}{x-2}$对于任意的$x\in (2, +\infty)$恒成立,所以
-$$k<\left[\displaystyle\frac{x(\ln x+1)}{x-2}\right]_\text{min}.$$
+题设等价于$k<\displaystyle\frac{x(\ln x+1)}{x-2}$对于任意的$x\in (2, +\infty)$恒成立。
 
 令$g(x)=\displaystyle\frac{x(\ln x+1)}{x-2},x\in(2, +\infty)$,则
 $$g^{\prime}(x) = \frac{x-2\ln x-4}{(x-2)^2}.$$
@@ -119,6 +118,28 @@ $$h^{\prime}(a) = \frac{\ne}{a}-\ne+1<1-e+1<0$$
 知$h(a)$单调递减. 于是$$h(a)<h(e) = 2\ne - \ne^2<0.$$
 这就证明了不等式 \eqref{2}. 以上过程均可逆, 于是原不等式得证.
 
+\end{proof}
+
+\section{对数均值不等式}
+熟知均值不等式\[\frac{x_1+x_2}{2}\geqslant\sqrt{x_1x_2},\]
+其中\(x_1, x_2\in [0, +\infty)\), 当且仅当\(x_1 = x_2\)时取等号.
+
+对\(x_1, x_2\in (0, +\infty)\), 恒有
+\[\frac{x_1+x_2}{2}\geqslant\frac{x_1-x_2}{\ln x_1 - \ln x_2}\geqslant\sqrt{x_1x_2},\]
+当且仅当\(x_1 = x_2\)时取等号.
+这个不等式称为\textbf{对数均值不等式}.
+
+\begin{proof}
+    不妨设\(x_1>x_2>0\). 令\(t = x_1/x_2>1\), 则\(x_1 = tx_2\), 要证上式, 等价于证明
+    \[\frac{x_2(t+1)}{2}>\frac{x_2(t - 1)}{\ln t}>x_2\sqrt{t}.\]
+    由于\(x_2>0\), 所以等价于证明
+    \[\frac{t+1}{2}>\frac{t - 1}{\ln t}>\sqrt{t}.\]
+
+    先证明左侧的不等式\[\frac{t+1}{2}>\frac{t - 1}{\ln t},\] 即证
+    \[\ln t-\frac{2(t-1)}{t+1}>0.\]构造函数\[F(t) = \ln t - \frac{2(t-1)}{t+1},t\in (1, +\infty). \]
+    求导可得\(F(x)\)在\(x>1\)时单调递增, 则\[F(x)>F(1) = 0.\]
+    
+    从而左侧得证.右侧可作类似证明, 于是原不等式成立.
 \end{proof}
 
 \end{document}

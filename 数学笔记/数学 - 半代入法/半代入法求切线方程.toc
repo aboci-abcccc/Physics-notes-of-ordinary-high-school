@@ -4,3 +4,4 @@
 \contentsline {subsection}{\numberline {2.2}切线}{3}{}%
 \contentsline {subsection}{\numberline {2.3}根据导函数求切线方程}{3}{}%
 \contentsline {section}{\numberline {3}半代入法求切线方程}{4}{}%
+\contentsline {section}{\numberline {4}半代入法的证明}{5}{}%

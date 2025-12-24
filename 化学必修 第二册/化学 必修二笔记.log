@@ -1,10 +1,10 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.15)  22 MAR 2024 22:58
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.15)  2 JUN 2025 19:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"d:/My Files/化学 必修二笔记/化学 必修二笔记"
-(d:/My Files/化学 必修二笔记/化学 必修二笔记.tex
+**"d:/My Files/学习笔记/化学必修 第二册/化学 必修二笔记"
+(d:/My Files/学习笔记/化学必修 第二册/化学 必修二笔记.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-02-22> (c:/texlive/2023/texmf-dist/tex/latex/ctex/ctexbook.cls (c:/texlive/2023/texmf-dist/tex/latex/ctex/config/ctexbackend.cfg
 File: ctexbackend.cfg 2022/07/14 v2.5.10 Backend configuration file (CTEX)
@@ -421,7 +421,7 @@ Package mhchem Warning: You did not specify a 'version' option for the mhchem
 ) (c:/texlive/2023/texmf-dist/tex/latex/tools/enumerate.sty
 Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
 \@enLab=\toks24
-) (c:/texlive/2023/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (c:/texlive/2023/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (c:/texlive/2023/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (c:/texlive/2023/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+) (c:/texlive/2023/texmf-dist/tex/generic/chemfig/chemfig.sty (c:/texlive/2023/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (c:/texlive/2023/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (c:/texlive/2023/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (c:/texlive/2023/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
 \pgfutil@everybye=\toks25
 \pgfutil@tempdima=\dimen276
 \pgfutil@tempdimb=\dimen277
@@ -617,7 +617,32 @@ File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \tikz@expandcount=\count339
  (c:/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
-)))
+))) (c:/texlive/2023/texmf-dist/tex/generic/chemfig/chemfig.tex (c:/texlive/2023/texmf-dist/tex/generic/simplekv/simplekv.tex
+Package: simplekv 2022/10/01 v0.2a Simple keyval package (CT)
+) (c:/texlive/2023/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.meta.code.tex
+File: pgflibraryarrows.meta.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowinset=\dimen326
+\pgfarrowlength=\dimen327
+\pgfarrowwidth=\dimen328
+\pgfarrowlinewidth=\dimen329
+)
+\CF_cnt_atomgroup=\count340
+\CF_cnt_group=\count341
+\CF_cnt_atom=\count342
+\CF_cnt_cycle=\count343
+\CF_cnt_cyclebonds=\count344
+\CF_cnt_compound=\count345
+\CF_dim=\dimen330
+\CF_arrowsize=\dimen331
+\CF_zero=\dimen332
+\CF_box=\box72
+\CF_boxstuff=\box73
+\CF_testbox=\box74
+\CF_chargebox=\box75
+\CF_substtoks=\toks37
+)
+Package: chemfig 2023/02/18 v1.6d Draw molecule with an easy syntax (CT)
+)
 
 Class ctexbook Warning: Command `\CTEXsetup' is deprecated.
 (ctexbook)              
@@ -735,7 +760,7 @@ Package embrac Info: \textsi not defined. Not patching it...
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\Hy@linkcounter=\count340
+\Hy@linkcounter=\count346
 
 Package chemgreek Info: Activating mapping `fontspec' on line 15.
 
@@ -801,12 +826,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 22352 strings out of 476683
- 540424 string characters out of 5807574
+ 23963 strings out of 476683
+ 571828 string characters out of 5807574
  1875012 words of memory out of 5000000
- 42206 multiletter control sequences out of 15000+600000
+ 43803 multiletter control sequences out of 15000+600000
  522796 words of font info for 104 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 89i,28n,100p,504b,584s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 103i,28n,105p,509b,745s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on 化学 必修二笔记.pdf (16 pages).
