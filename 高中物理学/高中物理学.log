@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.15)  24 DEC 2025 23:24
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.15)  31 DEC 2025 00:07
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -757,7 +757,7 @@ Underfull \vbox (badness 2582) has occurred while \output is active []
  [8]
 Underfull \vbox (badness 2582) has occurred while \output is active []
 
- [9])
+ [9] [10])
 \tf@toc=\write4
 \openout4 = `高中物理学.toc'.
 
@@ -774,7 +774,7 @@ Underfull \vbox (badness 1048) has occurred while \output is active []
 File: pic/1-10.pdf Graphic file (type pdf)
 <use pic/1-10.pdf>
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 3209) has occurred while \output is active []
 
  [6] [7] [8] [9] [10]
 第二章
@@ -818,7 +818,7 @@ File: pic/2-2.pdf Graphic file (type pdf)
 File: pic/2-3.pdf Graphic file (type pdf)
 <use pic/2-3.pdf>
 
-Underfull \vbox (badness 7613) has occurred while \output is active []
+Underfull \vbox (badness 3078) has occurred while \output is active []
 
  [16]
 File: pic/2-4.pdf Graphic file (type pdf)
@@ -852,9 +852,6 @@ File: pic/3-1.pdf Graphic file (type pdf)
 File: pic/3-2.pdf Graphic file (type pdf)
 <use pic/3-2.pdf>
  [29]
-
-LaTeX Warning: Reference `三角形定则' on page 30 undefined on input line 1129.
-
 File: pic/2-21.pdf Graphic file (type pdf)
 <use pic/2-21.pdf>
 File: pic/2-22.pdf Graphic file (type pdf)
@@ -936,7 +933,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [56] [57]
 
-LaTeX Warning: Command \textgreater invalid in math mode on input line 2302.
+LaTeX Warning: Command \textgreater invalid in math mode on input line 2308.
 
 [58]
 File: pic/pic12.pdf Graphic file (type pdf)
@@ -945,149 +942,169 @@ File: pic/pic12.pdf Graphic file (type pdf)
 
 ]
 第八章
-[61] [62] [63]
+[61] [62]
+File: pic/8.2-A.pdf Graphic file (type pdf)
+<use pic/8.2-A.pdf>
+File: pic/8.2-B.pdf Graphic file (type pdf)
+<use pic/8.2-B.pdf>
+ [63] [64] [65] [66] [67]
 File: pic/pic13.pdf Graphic file (type pdf)
 <use pic/pic13.pdf>
 
-Overfull \hbox (9.90094pt too wide) in paragraph at lines 2535--2537
- []
- []
 
-[64]
-
-LaTeX Warning: Command \textgreater invalid in math mode on input line 2554.
+LaTeX Warning: Command \textgreater invalid in math mode on input line 2753.
 
 
-LaTeX Warning: Command \textgreater invalid in math mode on input line 2554.
+LaTeX Warning: Command \textgreater invalid in math mode on input line 2753.
 
 
-LaTeX Warning: Command \textgreater invalid in math mode on input line 2554.
+LaTeX Warning: Command \textgreater invalid in math mode on input line 2753.
 
-[65] [66]
+[68] [69] [70
+
+]
 第九章
 File: pic/9.1-A.pdf Graphic file (type pdf)
 <use pic/9.1-A.pdf>
-[67
 
-]
+Underfull \vbox (badness 1033) has occurred while \output is active []
+
+ [71]
 File: pic/9.3-0.png Graphic file (type bmp)
 <pic/9.3-0.png>
 File: pic/9.3-1.png Graphic file (type bmp)
 <pic/9.3-1.png>
-
+ [72] [73] [74] [75] [76] [77]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [68] [69] [70] [71] [72] [73]
+ [78]
 File: pic/pic10.pdf Graphic file (type pdf)
 <use pic/pic10.pdf>
 File: pic/pic11.pdf Graphic file (type pdf)
 <use pic/pic11.pdf>
- [74] [75] [76] [77]
+ [79] [80] [81]
 File: pic/exam_5.6-2.pdf Graphic file (type pdf)
 <use pic/exam_5.6-2.pdf>
- [78]
-Underfull \hbox (badness 10000) in paragraph at lines 3186--3188
+ [82]
+Underfull \hbox (badness 10000) in paragraph at lines 3385--3387
 
  []
 
-[79]
+[83]
 File: pic/exam_5-3.pdf Graphic file (type pdf)
 <use pic/exam_5-3.pdf>
- [80]
-第十章
-[81
 
-] [82] [83] [84] [85] [86] [87] [88]
-第十一章
+Underfull \vbox (badness 3449) has occurred while \output is active []
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [89
-
-] [90] [91]
-File: pic/2.2-1.pdf Graphic file (type pdf)
-<use pic/2.2-1.pdf>
- [92]
-
-LaTeX Font Warning: Command \LARGE invalid in math mode on input line 3826.
-
-
-LaTeX Font Warning: Command \LARGE invalid in math mode on input line 3828.
-
-[93] [94]
-File: pic/2.3-1q.pdf Graphic file (type pdf)
-<use pic/2.3-1q.pdf>
- [95] [96
+ [84] [85] [86
 
 ]
+第十章
+[87] [88] [89] [90] [91] [92] [93] [94]
+第十一章
+File: pic/11-A.png Graphic file (type bmp)
+<pic/11-A.png>
+[95
+
+]
+File: pic/11-B.pdf Graphic file (type pdf)
+<use pic/11-B.pdf>
+ [96] [97]
+File: pic/11-C.png Graphic file (type bmp)
+<pic/11-C.png>
+ [98] [99]
+File: pic/2.2-1.pdf Graphic file (type pdf)
+<use pic/2.2-1.pdf>
+
+
+LaTeX Font Warning: Command \LARGE invalid in math mode on input line 4137.
+
+[100]
+
+LaTeX Font Warning: Command \LARGE invalid in math mode on input line 4139.
+
+
+Underfull \vbox (badness 6001) has occurred while \output is active []
+
+ [101] [102]
+File: pic/2.3-1q.pdf Graphic file (type pdf)
+<use pic/2.3-1q.pdf>
+
+Overfull \hbox (0.75607pt too wide) in paragraph at lines 4260--4265
+[]\TU/SimSun(0)/m/n/10.95 核 磁 共 振 现 象 是 原 子 核 在 外 磁 场 作 用 下 发 生 共 振 而 吸 收 某 一 频 率 电 磁 波 的 物 理 过 程\TU/lmr/m/n/10.95 . \TU/SimSun(0)/m/n/10.95 目 前 核 磁 共 振 成 像 \TU/lmr/m/n/10.95 (MRI)
+ []
+
+[103] [104]
 第十二章
-[97] [98]
+[105
+
+] [106]
 File: pic/2.4-1q.pdf Graphic file (type pdf)
 <use pic/2.4-1q.pdf>
 File: pic/2.4-2q.pdf Graphic file (type pdf)
 <use pic/2.4-2q.pdf>
- [99] [100] [101]
+ [107] [108] [109]
 File: pic/3.3-1.jpg Graphic file (type bmp)
 <pic/3.3-1.jpg>
- [102] [103] [104] [105
+ [110] [111] [112] [113
 
-] [106]
+] [114]
 第十三章
-[107
+[115
 
-] [108] [109]
+] [116] [117]
 Underfull \vbox (badness 3492) has occurred while \output is active []
 
- [110] [111] [112] [113] [114] [115] [116] [117]
+ [118] [119] [120] [121] [122] [123] [124] [125]
 File: pic/pic1.6-1.pdf Graphic file (type pdf)
 <use pic/pic1.6-1.pdf>
- [118] [119]
+ [126] [127]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [120] [121] [122]
+ [128] [129] [130]
 File: pic/1.7-1.pdf Graphic file (type pdf)
 <use pic/1.7-1.pdf>
 File: pic/1.7-2.pdf Graphic file (type pdf)
 <use pic/1.7-2.pdf>
- [123]
+ [131]
 File: pic/1.8-3.pdf Graphic file (type pdf)
 <use pic/1.8-3.pdf>
 
-Overfull \hbox (4.46945pt too wide) in paragraph at lines 5238--5239
+Overfull \hbox (4.46945pt too wide) in paragraph at lines 5574--5575
  []
  []
 
 File: pic/1.8-4.pdf Graphic file (type pdf)
 <use pic/1.8-4.pdf>
 
-Overfull \hbox (4.46945pt too wide) in paragraph at lines 5266--5267
+Overfull \hbox (4.46945pt too wide) in paragraph at lines 5602--5603
  []
  []
 
-[124]
+[132]
 File: pic/1.8-1.pdf Graphic file (type pdf)
 <use pic/1.8-1.pdf>
- [125]
+ [133]
 File: pic/1.9-2.pdf Graphic file (type pdf)
 <use pic/1.9-2.pdf>
- [126] [127] [128
+ [134] [135] [136
 
 ]
 第十四章
 File: pic/2.3-1.pdf Graphic file (type pdf)
 <use pic/2.3-1.pdf>
 
-Overfull \hbox (19.49353pt too wide) in paragraph at lines 5396--5397
+Overfull \hbox (19.49353pt too wide) in paragraph at lines 5732--5733
  []
  []
 
-[129]
+[137]
 Underfull \vbox (badness 1430) has occurred while \output is active []
 
- [130] [131]
+ [138] [139]
 File: pic/14.2-10.pdf Graphic file (type pdf)
 <use pic/14.2-10.pdf>
- [132]
+ [140]
 File: pic/14.3-0.png Graphic file (type bmp)
 <pic/14.3-0.png>
 File: pic/14.3-1.png Graphic file (type bmp)
@@ -1096,83 +1113,83 @@ File: pic/14.3-20.pdf Graphic file (type pdf)
 <use pic/14.3-20.pdf>
 File: pic/14.3-21.pdf Graphic file (type pdf)
 <use pic/14.3-21.pdf>
- [133]
+ [141]
 Underfull \vbox (badness 1303) has occurred while \output is active []
 
- [134]
+ [142]
 Underfull \vbox (badness 2556) has occurred while \output is active []
 
- [135] [136]
+ [143] [144]
 File: pic/2.4-1.pdf Graphic file (type pdf)
 <use pic/2.4-1.pdf>
 File: pic/2.4-2.pdf Graphic file (type pdf)
 <use pic/2.4-2.pdf>
 File: pic/2.4-3.pdf Graphic file (type pdf)
 <use pic/2.4-3.pdf>
- [137] [138] [139] [140] [141]
+ [145] [146] [147] [148] [149]
 File: pic/2.6-1.pdf Graphic file (type pdf)
 <use pic/2.6-1.pdf>
 File: pic/2.6-2.pdf Graphic file (type pdf)
 <use pic/2.6-2.pdf>
- [142]
+ [150]
 File: pic/2.7-1.pdf Graphic file (type pdf)
 <use pic/2.7-1.pdf>
- [143] [144]
+ [151] [152]
 File: pic/2.7-2.pdf Graphic file (type pdf)
 <use pic/2.7-2.pdf>
- [145] [146]
+ [153] [154]
 File: pic/2.8-1.pdf Graphic file (type pdf)
 <use pic/2.8-1.pdf>
 File: pic/2.8-2.pdf Graphic file (type pdf)
 <use pic/2.8-2.pdf>
- [147]
+ [155]
 File: pic/2.8-3.pdf Graphic file (type pdf)
 <use pic/2.8-3.pdf>
 File: pic/2.8-4.pdf Graphic file (type pdf)
 <use pic/2.8-4.pdf>
- [148]
+ [156]
 File: pic/2.9-1.pdf Graphic file (type pdf)
 <use pic/2.9-1.pdf>
 File: pic/2.9-2.pdf Graphic file (type pdf)
 <use pic/2.9-2.pdf>
- [149] [150]
+ [157] [158]
 第十五章
-[151
+[159
 
-] [152]
+] [160]
 Underfull \vbox (badness 2512) has occurred while \output is active []
 
- [153] [154] [155]
+ [161] [162] [163]
 Underfull \vbox (badness 1038) has occurred while \output is active []
 
- [156] [157]
+ [164] [165]
 File: pic/3.5-1.pdf Graphic file (type pdf)
 <use pic/3.5-1.pdf>
- [158] [159]
+ [166] [167]
 File: pic/3.3-1.png Graphic file (type bmp)
 <pic/3.3-1.png>
 File: pic/zhipuyi.png Graphic file (type bmp)
 <pic/zhipuyi.png>
- [160]
+ [168]
 Underfull \vbox (badness 2205) has occurred while \output is active []
 
- [161] [162]
+ [169] [170]
 第十六章
-[163
+[171
 
 ]
 Underfull \vbox (badness 4024) has occurred while \output is active []
 
- [164] [165]
+ [172] [173]
 File: pic/3.6-1.pdf Graphic file (type pdf)
 <use pic/3.6-1.pdf>
- [166]
+ [174]
 File: pic/3.6-2.pdf Graphic file (type pdf)
 <use pic/3.6-2.pdf>
- [167]
+ [175]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [168] [169] [170] [171]
+ [176] [177] [178] [179]
 File: pic/4.7-2.pdf Graphic file (type pdf)
 <use pic/4.7-2.pdf>
 
@@ -1198,10 +1215,10 @@ Package fontspec Info: Font family 'FangSong(0)' created for font 'FangSong'
 (fontspec)             <->"FangSong/OT:script=hani;language=dflt;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 
- [172]
+ [180]
 File: pic/4.7-3.pdf Graphic file (type pdf)
 <use pic/4.7-3.pdf>
- [173] [174] [175] [176
+ [181] [182] [183] [184
 
 ]
 第十七章
@@ -1209,45 +1226,45 @@ File: pic/4.1-1.png Graphic file (type bmp)
 <pic/4.1-1.png>
 File: pic/4.1-2.pdf Graphic file (type pdf)
 <use pic/4.1-2.pdf>
-[177]
+[185]
 File: pic/4.1-3.pdf Graphic file (type pdf)
 <use pic/4.1-3.pdf>
- [178] [179]
+ [186] [187]
 Underfull \vbox (badness 1189) has occurred while \output is active []
 
- [180]
+ [188]
 File: pic/5.4-1.pdf Graphic file (type pdf)
 <use pic/5.4-1.pdf>
- [181] [182]
+ [189] [190]
 File: pic/5.4-3.pdf Graphic file (type pdf)
 <use pic/5.4-3.pdf>
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[183] [184] [185
+[191] [192] [193
 
-] [186]
+] [194]
 第十八章
 File: pic/4.1-1q.pdf Graphic file (type pdf)
 <use pic/4.1-1q.pdf>
-[187
+[195
 
-] [188] [189]
+] [196] [197]
 File: pic/4.4-1.png Graphic file (type bmp)
 <pic/4.4-1.png>
- [190] [191] [192] [193] (./高中物理学.aux)
+ [198] [199] [200] [201] (./高中物理学.aux)
 
-LaTeX Warning: There were undefined references.
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 23836 strings out of 476683
- 545997 string characters out of 5807574
+ 23910 strings out of 476683
+ 548316 string characters out of 5807574
  1871012 words of memory out of 5000000
- 43583 multiletter control sequences out of 15000+600000
+ 43652 multiletter control sequences out of 15000+600000
  525044 words of font info for 118 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  89i,13n,97p,503b,468s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on 高中物理学.pdf (203 pages).
+Output written on 高中物理学.pdf (212 pages).
