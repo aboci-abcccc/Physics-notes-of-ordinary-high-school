@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.15)  24 APR 2026 00:00
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.15)  26 APR 2026 02:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -617,27 +617,767 @@ File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )))
 \c@exam=\count346
  (./高中物理学.aux)
-d:/华为家庭存储/My Files/学习笔记/高中物理学/高中物理学.tex:26: I can't write on file `高中物理学.aux'.
-\document ...ate \openout \@mainaux \jobname .aux 
-                                                  \immediate \write \@mainau...
-l.26 \begin{document}
-                     
-(Press Enter to retry, or Control-Z to exit; default file extension is `.tex')
-Please type another output file name
-d:/华为家庭存储/My Files/学习笔记/高中物理学/高中物理学.tex:26: Emergency stop.
-\document ...ate \openout \@mainaux \jobname .aux 
-                                                  \immediate \write \@mainau...
-l.26 \begin{document}
-                     
-*** (job aborted, file error in nonstop mode)
+\openout1 = `高中物理学.aux'.
 
- 
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+
+Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
+(fontspec)             this).
+
+\symlegacymaths=\mathgroup7
+LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 26.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 26.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 26.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 26.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 26.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 26.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 26.
+LaTeX Font Info:    Redeclaring math accent \check on input line 26.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 26.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 26.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 26.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 26.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 26.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 26.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 26.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 26.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 26.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 26.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 26.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 26.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 26.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 26.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 26.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 26.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `normal' on input line 26.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 26.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `bold' on input line 26.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 26.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 26.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 26.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 26.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 26.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 26.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 26.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 26.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 26.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 26.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: xetex
+*geometry* verbose mode - [ preamble ] result:
+* driver: xetex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(28.45274pt, 543.44783pt, 25.6073pt)
+* v-part:(T,H,B)=(56.9055pt, 734.08128pt, 54.06006pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=543.44783pt
+* \textheight=734.08128pt
+* \oddsidemargin=-43.81725pt
+* \evensidemargin=-46.66269pt
+* \topmargin=-47.23828pt
+* \headheight=12.0pt
+* \headsep=19.8738pt
+* \topskip=11.0pt
+* \footskip=27.46295pt
+* \marginparwidth=106.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+\Hy@linkcounter=\count347
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 27.
+(c:/texlive/2023/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 27.
+ (c:/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [1
+
+
+] (./高中物理学.toc [1
+
+]
+LaTeX Font Info:    Font shape `TU/SimSun(0)/m/sl' in size <10.95> not available
+(Font)              Font shape `TU/SimSun(0)/m/it' tried instead on input line 69.
+ [2] [3] [4]
+Underfull \vbox (badness 1412) has occurred while \output is active []
+
+ [5]
+Underfull \vbox (badness 2582) has occurred while \output is active []
+
+ [6]
+Underfull \vbox (badness 2582) has occurred while \output is active []
+
+ [7]
+Underfull \vbox (badness 2582) has occurred while \output is active []
+
+ [8] [9] [10] [11])
+\tf@toc=\write4
+\openout4 = `高中物理学.toc'.
+
+ [1] [2
+
+] [3] [4]
+第一章
+
+Underfull \vbox (badness 1048) has occurred while \output is active []
+
+ [5
+
+]
+File: pic/1-10.pdf Graphic file (type pdf)
+<use pic/1-10.pdf>
+
+Underfull \vbox (badness 3209) has occurred while \output is active []
+
+ [6] [7] [8]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [9] [10]
+第二章
+File: pic/2.1-B.pdf Graphic file (type pdf)
+<use pic/2.1-B.pdf>
+File: pic/2.1-A.pdf Graphic file (type pdf)
+<use pic/2.1-A.pdf>
+File: pic/2.1-C.pdf Graphic file (type pdf)
+<use pic/2.1-C.pdf>
+
+Package fontspec Info: Could not resolve font "KaiTi/BI" (it probably doesn't
+(fontspec)             exist).
+
+
+Package fontspec Info: Could not resolve font "KaiTi/B" (it probably doesn't
+(fontspec)             exist).
+
+
+Package fontspec Info: Could not resolve font "KaiTi/I" (it probably doesn't
+(fontspec)             exist).
+
+
+Package fontspec Info: Font family 'KaiTi(0)' created for font 'KaiTi' with
+(fontspec)             options [Script={CJK}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"KaiTi/OT:script=hani;language=dflt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+
+[11
+
+] [12]
+File: pic/2-1.pdf Graphic file (type pdf)
+<use pic/2-1.pdf>
+ [13] [14] [15]
+File: pic/2-2.pdf Graphic file (type pdf)
+<use pic/2-2.pdf>
+File: pic/2-3.pdf Graphic file (type pdf)
+<use pic/2-3.pdf>
+
+Underfull \vbox (badness 3078) has occurred while \output is active []
+
+ [16]
+File: pic/2-4.pdf Graphic file (type pdf)
+<use pic/2-4.pdf>
+File: pic/2-5.pdf Graphic file (type pdf)
+<use pic/2-5.pdf>
+ [17]
+Underfull \vbox (badness 8094) has occurred while \output is active []
+
+ [18]
+File: pic/2-10.pdf Graphic file (type pdf)
+<use pic/2-10.pdf>
+File: pic/2-11.pdf Graphic file (type pdf)
+<use pic/2-11.pdf>
+ [19] [20] [21] [22] [23] [24]
+第三章
+
+Underfull \vbox (badness 1325) has occurred while \output is active []
+
+ [25
+
+] [26]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [27]
+File: pic/2-20.pdf Graphic file (type pdf)
+<use pic/2-20.pdf>
+ [28]
+File: pic/3-1.pdf Graphic file (type pdf)
+<use pic/3-1.pdf>
+File: pic/3-2.pdf Graphic file (type pdf)
+<use pic/3-2.pdf>
+ [29]
+File: pic/2-21.pdf Graphic file (type pdf)
+<use pic/2-21.pdf>
+File: pic/2-22.pdf Graphic file (type pdf)
+<use pic/2-22.pdf>
+File: pic/2-24.pdf Graphic file (type pdf)
+<use pic/2-24.pdf>
+File: pic/3-3.pdf Graphic file (type pdf)
+<use pic/3-3.pdf>
+
+Underfull \vbox (badness 2644) has occurred while \output is active []
+
+ [30] [31] [32]
+第四章
+File: pic/R-C.png Graphic file (type bmp)
+<pic/R-C.png>
+
+Underfull \vbox (badness 4096) has occurred while \output is active []
+
+ [33
+
+] [34] [35] [36]
+File: pic/4-10.pdf Graphic file (type pdf)
+<use pic/4-10.pdf>
+File: pic/4-11.pdf Graphic file (type pdf)
+<use pic/4-11.pdf>
+ [37] [38]
+第五章
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [39
+
+]
+File: pic/5-1.pdf Graphic file (type pdf)
+<use pic/5-1.pdf>
+
+Underfull \vbox (badness 1082) has occurred while \output is active []
+
+ [40]
+File: pic/pic5.pdf Graphic file (type pdf)
+<use pic/pic5.pdf>
+File: pic/pic6.pdf Graphic file (type pdf)
+<use pic/pic6.pdf>
+File: pic/pic7.pdf Graphic file (type pdf)
+<use pic/pic7.pdf>
+ [41] [42] [43] [44
+
+]
+第六章
+File: pic/4-1.pdf Graphic file (type pdf)
+<use pic/4-1.pdf>
+File: pic/4-2.pdf Graphic file (type pdf)
+<use pic/4-2.pdf>
+[45]
+File: pic/6-1-1.pdf Graphic file (type pdf)
+<use pic/6-1-1.pdf>
+ [46] [47]
+File: pic/pic4.png Graphic file (type bmp)
+<pic/pic4.png>
+ [48]
+File: pic/pic2.png Graphic file (type bmp)
+<pic/pic2.png>
+ [49] [50] [51] [52
+
+]
+第七章
+[53] [54]
+File: pic/pic8.pdf Graphic file (type pdf)
+<use pic/pic8.pdf>
+File: pic/pic9.pdf Graphic file (type pdf)
+<use pic/pic9.pdf>
+ [55] [56]
+File: pic/7.3-1.pdf Graphic file (type pdf)
+<use pic/7.3-1.pdf>
+File: pic/7.3-2.pdf Graphic file (type pdf)
+<use pic/7.3-2.pdf>
+ [57] [58]
+File: pic/pic12.pdf Graphic file (type pdf)
+<use pic/pic12.pdf>
+ [59] [60
+
+]
+第八章
+
+Underfull \vbox (badness 7540) has occurred while \output is active []
+
+ [61]
+Underfull \vbox (badness 3482) has occurred while \output is active []
+
+ [62]
+File: pic/8.2-A.pdf Graphic file (type pdf)
+<use pic/8.2-A.pdf>
+File: pic/8.2-B.pdf Graphic file (type pdf)
+<use pic/8.2-B.pdf>
+ [63] [64] [65] [66] [67]
+File: pic/pic13.pdf Graphic file (type pdf)
+<use pic/pic13.pdf>
+
+
+LaTeX Warning: Command \textgreater invalid in math mode on input line 2769.
+
+
+LaTeX Warning: Command \textgreater invalid in math mode on input line 2769.
+
+
+LaTeX Warning: Command \textgreater invalid in math mode on input line 2769.
+
+
+Underfull \vbox (badness 4634) has occurred while \output is active []
+
+ [68] [69] [70
+
+]
+第九章
+
+Underfull \vbox (badness 1048) has occurred while \output is active []
+
+ [71]
+File: pic/9.1-A.pdf Graphic file (type pdf)
+<use pic/9.1-A.pdf>
+ [72]
+File: pic/9.3-0.png Graphic file (type bmp)
+<pic/9.3-0.png>
+File: pic/9.3-1.png Graphic file (type bmp)
+<pic/9.3-1.png>
+ [73] [74] [75] [76] [77] [78]
+File: pic/pic10.pdf Graphic file (type pdf)
+<use pic/pic10.pdf>
+File: pic/pic11.pdf Graphic file (type pdf)
+<use pic/pic11.pdf>
+
+Underfull \vbox (badness 4673) has occurred while \output is active []
+
+ [79] [80] [81] [82]
+File: pic/exam_5.6-2.pdf Graphic file (type pdf)
+<use pic/exam_5.6-2.pdf>
+ [83] [84]
+
+LaTeX Warning: Reference `热力学定律' on page 85 undefined on input line 3480.
+
+
+LaTeX Warning: Reference `热力学定律' on page 85 undefined on input line 3489.
+
+File: pic/exam_5-3.pdf Graphic file (type pdf)
+<use pic/exam_5-3.pdf>
+[85] [86]
+第十章
+
+Underfull \vbox (badness 7631) has occurred while \output is active []
+
+ [87
+
+] [88] [89] [90] [91] [92] [93] [94] [95] [96
+
+] [97] [98]
+第十一章
+[99
+
+] [100] [101] [102]
+File: pic/11-A.pdf Graphic file (type pdf)
+<use pic/11-A.pdf>
+ [103] [104] [105]
+File: pic/11-1-1.png Graphic file (type bmp)
+<pic/11-1-1.png>
+File: pic/11-1-2.png Graphic file (type bmp)
+<pic/11-1-2.png>
+ [106]
+Underfull \vbox (badness 2538) has occurred while \output is active []
+
+ [107]
+Underfull \vbox (badness 2253) has occurred while \output is active []
+
+ [108] [109]
+Underfull \vbox (badness 4686) has occurred while \output is active []
+
+ [110]
+File: pic/pic1.6-1.pdf Graphic file (type pdf)
+<use pic/pic1.6-1.pdf>
+ [111] [112] [113]
+Underfull \vbox (badness 2961) has occurred while \output is active []
+
+ [114] [115]
+File: pic/1.7-1.pdf Graphic file (type pdf)
+<use pic/1.7-1.pdf>
+File: pic/1.7-2.pdf Graphic file (type pdf)
+<use pic/1.7-2.pdf>
+ [116]
+File: pic/1.8-3.pdf Graphic file (type pdf)
+<use pic/1.8-3.pdf>
+
+Overfull \hbox (4.46945pt too wide) in paragraph at lines 5010--5011
+ []
+ []
+
+File: pic/1.8-4.pdf Graphic file (type pdf)
+<use pic/1.8-4.pdf>
+
+Overfull \hbox (4.46945pt too wide) in paragraph at lines 5038--5039
+ []
+ []
+
+[117]
+File: pic/1.8-1.pdf Graphic file (type pdf)
+<use pic/1.8-1.pdf>
+ [118]
+File: pic/1.9-2.pdf Graphic file (type pdf)
+<use pic/1.9-2.pdf>
+ [119] [120]
+第十二章
+File: pic/2.3-1.pdf Graphic file (type pdf)
+<use pic/2.3-1.pdf>
+
+Overfull \hbox (19.49353pt too wide) in paragraph at lines 5168--5169
+ []
+ []
+
+[121
+
+]
+Underfull \vbox (badness 1430) has occurred while \output is active []
+
+ [122] [123]
+File: pic/14.2-10.pdf Graphic file (type pdf)
+<use pic/14.2-10.pdf>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [124]
+File: pic/14.3-0.png Graphic file (type bmp)
+<pic/14.3-0.png>
+File: pic/14.3-1.png Graphic file (type bmp)
+<pic/14.3-1.png>
+File: pic/14.3-20.pdf Graphic file (type pdf)
+<use pic/14.3-20.pdf>
+File: pic/14.3-21.pdf Graphic file (type pdf)
+<use pic/14.3-21.pdf>
+ [125] [126] [127] [128]
+File: pic/2.4-1.pdf Graphic file (type pdf)
+<use pic/2.4-1.pdf>
+File: pic/2.4-2.pdf Graphic file (type pdf)
+<use pic/2.4-2.pdf>
+File: pic/2.4-3.pdf Graphic file (type pdf)
+<use pic/2.4-3.pdf>
+ [129] [130] [131] [132] [133] [134]
+File: pic/2.6-1.pdf Graphic file (type pdf)
+<use pic/2.6-1.pdf>
+File: pic/2.6-2.pdf Graphic file (type pdf)
+<use pic/2.6-2.pdf>
+ [135]
+File: pic/2.7-1.pdf Graphic file (type pdf)
+<use pic/2.7-1.pdf>
+ [136]
+File: pic/2.7-2.pdf Graphic file (type pdf)
+<use pic/2.7-2.pdf>
+ [137] [138]
+File: pic/2.8-1.pdf Graphic file (type pdf)
+<use pic/2.8-1.pdf>
+File: pic/2.8-2.pdf Graphic file (type pdf)
+<use pic/2.8-2.pdf>
+ [139]
+File: pic/2.8-3.pdf Graphic file (type pdf)
+<use pic/2.8-3.pdf>
+File: pic/2.8-4.pdf Graphic file (type pdf)
+<use pic/2.8-4.pdf>
+ [140] [141]
+File: pic/2.9-1.pdf Graphic file (type pdf)
+<use pic/2.9-1.pdf>
+File: pic/2.9-2.pdf Graphic file (type pdf)
+<use pic/2.9-2.pdf>
+ [142] [143] [144
+
+]
+第十三章
+[145] [146]
+Underfull \vbox (badness 2512) has occurred while \output is active []
+
+ [147] [148] [149]
+Underfull \vbox (badness 1038) has occurred while \output is active []
+
+ [150] [151]
+File: pic/3.5-1.pdf Graphic file (type pdf)
+<use pic/3.5-1.pdf>
+ [152] [153]
+File: pic/3.3-1.png Graphic file (type bmp)
+<pic/3.3-1.png>
+File: pic/zhipuyi.png Graphic file (type bmp)
+<pic/zhipuyi.png>
+ [154]
+Underfull \vbox (badness 2205) has occurred while \output is active []
+
+ [155] [156]
+第十四章
+[157
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [158]
+File: pic/3.6-1.pdf Graphic file (type pdf)
+<use pic/3.6-1.pdf>
+ [159]
+File: pic/3.6-2.pdf Graphic file (type pdf)
+<use pic/3.6-2.pdf>
+ [160] [161] [162] [163] [164]
+File: pic/4.7-2.pdf Graphic file (type pdf)
+<use pic/4.7-2.pdf>
+
+Package fontspec Info: Could not resolve font "FangSong/BI" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: Could not resolve font "FangSong/B" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: Could not resolve font "FangSong/I" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: Font family 'FangSong(0)' created for font 'FangSong'
+(fontspec)             with options [Script={CJK}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"FangSong/OT:script=hani;language=dflt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+
+ [165]
+File: pic/4.7-3.pdf Graphic file (type pdf)
+<use pic/4.7-3.pdf>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [166] [167] [168]
+第十五章
+File: pic/4.1-1.png Graphic file (type bmp)
+<pic/4.1-1.png>
+File: pic/4.1-2.pdf Graphic file (type pdf)
+<use pic/4.1-2.pdf>
+[169
+
+]
+File: pic/4.1-3.pdf Graphic file (type pdf)
+<use pic/4.1-3.pdf>
+ [170] [171]
+Underfull \vbox (badness 1189) has occurred while \output is active []
+
+ [172]
+File: pic/5.4-1.pdf Graphic file (type pdf)
+<use pic/5.4-1.pdf>
+ [173] [174]
+File: pic/5.4-3.pdf Graphic file (type pdf)
+<use pic/5.4-3.pdf>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[175] [176] [177
+
+] [178]
+第十六章
+[179
+
+]
+File: pic/13_1.png Graphic file (type bmp)
+<pic/13_1.png>
+ [180]
+File: pic/13_2.png Graphic file (type bmp)
+<pic/13_2.png>
+ [181]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [182]
+File: pic/13_3.png Graphic file (type bmp)
+<pic/13_3.png>
+ [183] [184] [185] [186
+
+]
+第十七章
+File: pic/18-99.png Graphic file (type bmp)
+<pic/18-99.png>
+File: pic/18-102.png Graphic file (type bmp)
+<pic/18-102.png>
+File: pic/18-101.png Graphic file (type bmp)
+<pic/18-101.png>
+[187] [188] [189]
+File: pic/18-205.png Graphic file (type bmp)
+<pic/18-205.png>
+File: pic/18-206.png Graphic file (type bmp)
+<pic/18-206.png>
+File: pic/12-202.png Graphic file (type bmp)
+<pic/12-202.png>
+ [190] [191]
+File: pic/12-205.png Graphic file (type bmp)
+<pic/12-205.png>
+ [192]
+File: pic/12-280.png Graphic file (type bmp)
+<pic/12-280.png>
+ [193]
+File: pic/12-300.png Graphic file (type bmp)
+<pic/12-300.png>
+ [194]
+第十八章
+[195
+
+] [196
+
+] [197] [198]
+第十九章
+File: pic/11-A.png Graphic file (type bmp)
+<pic/11-A.png>
+[199
+
+]
+File: pic/11-B.pdf Graphic file (type pdf)
+<use pic/11-B.pdf>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [200] [201] [202]
+File: pic/11-C.png Graphic file (type bmp)
+<pic/11-C.png>
+ [203]
+File: pic/11-E.pdf Graphic file (type pdf)
+<use pic/11-E.pdf>
+ [204]
+Underfull \vbox (badness 2469) has occurred while \output is active []
+
+ [205]
+File: pic/2.2-1.pdf Graphic file (type pdf)
+<use pic/2.2-1.pdf>
+
+
+LaTeX Font Warning: Command \LARGE invalid in math mode on input line 8716.
+
+
+LaTeX Font Warning: Command \LARGE invalid in math mode on input line 8718.
+
+[206] [207]
+File: pic/11-D.png Graphic file (type bmp)
+<pic/11-D.png>
+ [208]
+File: pic/2.3-1q.pdf Graphic file (type pdf)
+<use pic/2.3-1q.pdf>
+
+Overfull \hbox (0.75607pt too wide) in paragraph at lines 8848--8853
+[]\TU/SimSun(0)/m/n/10.95 核 磁 共 振 现 象 是 原 子 核 在 外 磁 场 作 用 下 发 生 共 振 而 吸 收 某 一 频 率 电 磁 波 的 物 理 过 程\TU/lmr/m/n/10.95 . \TU/SimSun(0)/m/n/10.95 目 前 核 磁 共 振 成 像 \TU/lmr/m/n/10.95 (MRI)
+ []
+
+[209] [210
+
+]
+第二十章
+File: pic/12-A.png Graphic file (type bmp)
+<pic/12-A.png>
+File: pic/12-B.png Graphic file (type bmp)
+<pic/12-B.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[211] [212] [213]
+File: pic/12-C.png Graphic file (type bmp)
+<pic/12-C.png>
+File: pic/2.4-1q.pdf Graphic file (type pdf)
+<use pic/2.4-1q.pdf>
+File: pic/2.4-2q.pdf Graphic file (type pdf)
+<use pic/2.4-2q.pdf>
+ [214] [215] [216]
+File: pic/12-E.png Graphic file (type bmp)
+<pic/12-E.png>
+ [217]
+File: pic/12-F.png Graphic file (type bmp)
+<pic/12-F.png>
+File: pic/12-G.png Graphic file (type bmp)
+<pic/12-G.png>
+ [218] [219] [220] [221] [222
+
+]
+第二十一章
+[223] [224] [225] [226] [227
+
+] [228]
+第二十二章
+File: pic/4.1-1q.pdf Graphic file (type pdf)
+<use pic/4.1-1q.pdf>
+[229
+
+] [230]
+File: pic/12-H.png Graphic file (type bmp)
+<pic/12-H.png>
+ [231]
+File: pic/12-I.png Graphic file (type bmp)
+<pic/12-I.png>
+File: pic/13-A.png Graphic file (type bmp)
+<pic/13-A.png>
+File: pic/13-B.png Graphic file (type bmp)
+<pic/13-B.png>
+ [232]
+File: pic/13-D.png Graphic file (type bmp)
+<pic/13-D.png>
+ [233]
+Underfull \vbox (badness 3989) has occurred while \output is active []
+
+ [234] [235] [236] [237] [238
+
+]
+第二十三章
+[239] [240
+
+] [241] [242] (./高中物理学.aux)
+
+LaTeX Warning: There were undefined references.
+
+ ) 
 Here is how much of TeX's memory you used:
- 22849 strings out of 476683
- 522814 string characters out of 5807574
- 1844012 words of memory out of 5000000
- 42767 multiletter control sequences out of 15000+600000
- 514715 words of font info for 48 fonts, out of 8000000 for 9000
+ 24201 strings out of 476683
+ 553883 string characters out of 5807574
+ 1872012 words of memory out of 5000000
+ 43918 multiletter control sequences out of 15000+600000
+ 525044 words of font info for 118 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 89i,0n,97p,510b,275s stack positions out of 10000i,1000n,20000p,200000b,200000s
-No pages of output.
+ 89i,13n,97p,510b,468s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+Output written on 高中物理学.pdf (254 pages).
